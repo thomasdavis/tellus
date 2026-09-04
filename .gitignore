@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.turbo/
+*.tsbuildinfo
+.DS_Store
+.env
+.env.local
+# downloaded avatars/props (regenerate with `pnpm assets`)
+apps/client/public/models/
+packages/assets/.cache/

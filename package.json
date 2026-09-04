@@ -1,0 +1,23 @@
+{
+  "name": "tellus",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tellus — a shared 3D world MMORPG built on Flobots avatars.",
+  "packageManager": "pnpm@11.22.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "typecheck": "turbo run typecheck",
+    "lint": "turbo run lint",
+    "assets": "pnpm --filter @tellus/assets fetch",
+    "clean": "turbo run clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
