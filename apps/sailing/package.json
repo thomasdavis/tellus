@@ -1,0 +1,26 @@
+{
+  "name": "@tellus/sailing",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server/index.ts",
+    "start": "tsx src/server/index.ts",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf .turbo *.tsbuildinfo"
+  },
+  "dependencies": {
+    "sharp": "^0.35.4",
+    "ssh2": "^1.17.0",
+    "@tellus/engine": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/ssh2": "^1.15.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "license": "MIT",
+  "author": "Thomas Davis",
+  "description": "SSH sailing — single-handed dinghy sailing in your terminal."
+}

@@ -27,5 +27,7 @@
     "@vitejs/plugin-react": "^4.3.4",
     "typescript": "^5.7.2",
     "vite": "^5.4.11"
-  }
+  },
+  "license": "MIT",
+  "author": "Thomas Davis"
 }

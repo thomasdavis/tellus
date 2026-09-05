@@ -19,5 +19,7 @@
     "@types/ws": "^8.5.13",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
-  }
+  },
+  "license": "MIT",
+  "author": "Thomas Davis"
 }

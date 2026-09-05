@@ -8,3 +8,8 @@ dist/
 # downloaded avatars/props (regenerate with `pnpm assets`)
 apps/client/public/models/
 packages/assets/.cache/
+
+# SSH host keys — generated per deployment, never committed
+# (each game server prints the ssh-keygen command on first run)
+apps/*/assets/host.key
+apps/*/assets/host.key.pub

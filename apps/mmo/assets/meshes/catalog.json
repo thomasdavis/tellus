@@ -1,0 +1,488 @@
+[
+  {
+    "id": "2bb3e4fc-4cf0-4643-95b9-5abfae8f5067",
+    "title": "Sci-Fi Cyborg Papillon Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "63f476be-969d-40d6-888b-1f20692b8665",
+    "title": "Modern L-Shaped Sectional Sofa",
+    "kind": "prop",
+    "size": 2.2
+  },
+  {
+    "id": "f8492130-5241-4c71-b551-f07b319050c6",
+    "title": "Ornate Baroque Eagle Throne Chair",
+    "kind": "prop",
+    "size": 2.2
+  },
+  {
+    "id": "f647b7c7-a18b-443b-bfff-0c09a3f7c92a",
+    "title": "Modern White & Chrome Bar Stools (Pair)",
+    "kind": "prop",
+    "size": 2.2
+  },
+  {
+    "id": "eefdf212-9e5c-46a3-b140-4e83684a238a",
+    "title": "Stylized Cartoon Pine Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "10b72cc6-d3c4-4e8b-b2cb-d7f9aad6e0e4",
+    "title": "Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "39b52998-aea2-4bbe-9e39-04dd08fca7d9",
+    "title": "Stylized Robotic Cavalier King Charles Spaniel",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "58c86f30-4b3d-4546-ac96-ac067d9a20b2",
+    "title": "Stylized Carved Wooden Dog Sculpture",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "006caf47-3028-4dc9-9d89-6736aaf5bf2d",
+    "title": "Basset Hound",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "2a07f9dc-08b7-4c11-8e99-6a507aed7d35",
+    "title": "Steampunk Robotic Pug",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "0ce82390-37ba-4695-9ddc-c5082899c957",
+    "title": "Steampunk Mechanical Bernese Mountain Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "744ae022-125c-4ec8-84b6-4a4ca5e3866e",
+    "title": "Steampunk Robotic Corgi",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "3ac3c9de-5e64-4fe9-b376-1c796d173937",
+    "title": "Steampunk Brass Robotic Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "cc620e74-3e23-4359-b116-64c3beb94b57",
+    "title": "Stylized Fantasy Cottage with Garden",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "d8738461-1966-4a11-812b-9c004b7ae564",
+    "title": "Antique Wooden Display Cabinet with Bust",
+    "kind": "landmark",
+    "size": 3
+  },
+  {
+    "id": "fb29a949-74ab-4996-bd28-ea73e544a03b",
+    "title": "Ornate Traditional Wooden Display Cabinet",
+    "kind": "prop",
+    "size": 2.2
+  },
+  {
+    "id": "eed936ac-bc55-4de7-a3c3-0a0df350e810",
+    "title": "Fantasy Storybook House with Overgrown Garden",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "52539ba8-2370-41fd-bf68-0f13f51e3cd2",
+    "title": "Traditional Wooden Display Cabinet",
+    "kind": "prop",
+    "size": 2.2
+  },
+  {
+    "id": "10fd79ca-47c7-48cb-8eeb-44baee44a3bf",
+    "title": "Enchanted Victorian Fantasy Mansion",
+    "kind": "building",
+    "size": 13
+  },
+  {
+    "id": "9c92a1ff-74ec-4fc4-b45f-b19b3f627de0",
+    "title": "Realistic Staffordshire Bull Terrier Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "c7cd4547-6d6d-45a2-8bf4-0288af70f8cc",
+    "title": "Fairy Tale Storybook Cottage with Balcony",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "12fa32e3-2be8-4531-8246-3fad4203220d",
+    "title": "Ornate Victorian Miniature House",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "a8734e11-5e22-45e3-a7ed-ae6d48a9b712",
+    "title": "Stylized Brown Retriever Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "790ea2e6-b028-4d52-9b33-99c366bd2968",
+    "title": "Stylized Black & White Puppy",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "c0bb24fd-7d2c-4aab-a1aa-a71c2dd7b4d2",
+    "title": "Stylized Black and Tan Dog Character",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "c2789308-5350-478c-aed7-50bb32b369f6",
+    "title": "Stylized Cartoon Dog Character",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "daca7ed3-e651-45b6-9956-a353517500ac",
+    "title": "Stylized White Bull Terrier Dog Character",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "6a76f0a7-1278-49fe-bb10-8aac879ad751",
+    "title": "Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "57de1155-fea2-4252-abcb-95d7be92586e",
+    "title": "Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "02fd8eaf-6bd6-4f21-9862-a32c1097e871",
+    "title": "Appaloosa Horse with Western Tack",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "9e149b24-2abc-41a2-83f8-38dddaa8b8c3",
+    "title": "Chestnut Horse with Leather Tack",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "3ba4713c-df01-4deb-9b7e-66c84a8a4238",
+    "title": "Realistic Saddled Zebra",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "e1f73751-40c7-4095-a32e-3558c8569767",
+    "title": "Clydesdale Draft Horse with Saddle and Pack",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "e5790c52-eb45-4510-9de1-5c1b4ccd4612",
+    "title": "Pinto Horse with Western Saddle and Tack",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "9945cbc9-c8a4-44b8-bb01-607fadb63c39",
+    "title": "Saddled Dun Riding Horse",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "7e30ddb9-7f0f-45df-81ac-438690be878e",
+    "title": "Stylized Black Horse with Silver Mane and Tack",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "ba2a9193-9678-483f-a65c-64ae8e22b7cc",
+    "title": "Realistic Friesian Horse with Saddle and Bridle",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "d9f2e0e2-68b5-4a52-aa49-385d418848a8",
+    "title": "Realistic Saddled Draft Horse - Dappled Grey",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "01b0b0da-5a4a-41b2-9df3-b581f3625a51",
+    "title": "White Horse with Ornate Saddle and Tack",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "00f70612-a5da-47f9-8608-0ee51f43033e",
+    "title": "Stylized Shetland Sheepdog (Sheltie)",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "1ab7f56d-48cb-4c58-bdd2-55af45365e35",
+    "title": "Stylized Draft Horse Figurine with Ornate Tack",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "09eabb3e-2c95-4361-81f1-c9f19dfd3903",
+    "title": "Stylized Palomino Horse with Riding Tack",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "672a5a69-78b2-4bc5-965a-2385b28e5c03",
+    "title": "Realistic Bloodhound Dog Model",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "2671cbf1-450d-49f5-8488-6790194dc49f",
+    "title": "Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "96937e6e-6756-4271-ab73-fd7fcd2971c0",
+    "title": "Rustic Fantasy Thatched Cottage",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "acc10fb1-3607-4f1e-bd1c-5a044099a4ba",
+    "title": "Traditional East Asian Inn with Tiled Roof",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "45e43b9e-b450-462d-a552-3a217525d6da",
+    "title": "Traditional Japanese Stone Lantern",
+    "kind": "prop",
+    "size": 2.2
+  },
+  {
+    "id": "a2fbf97d-d87f-4214-9aee-6a9e177b33ce",
+    "title": "Traditional Japanese Thatched Roof House",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "4e05cef7-1473-461b-bc2f-df4726a14edc",
+    "title": "Traditional Japanese Stone Lantern (Toro)",
+    "kind": "prop",
+    "size": 2.2
+  },
+  {
+    "id": "58e7e768-ea0d-4c84-9304-17dbfe13e541",
+    "title": "Traditional Japanese Garden Lantern",
+    "kind": "prop",
+    "size": 2.2
+  },
+  {
+    "id": "7279bf77-56dc-48d5-a4d6-8b9dff4cdc83",
+    "title": "Stylized Village Well with Wooden Roof and Buckets",
+    "kind": "landmark",
+    "size": 3
+  },
+  {
+    "id": "121c652e-e16f-4cba-add0-1b99ef1d7b9f",
+    "title": "Traditional Japanese Shrine Building",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "028684c5-3e50-40b1-922a-53169dded744",
+    "title": "Traditional Japanese Shinto Shrine",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "d37038bd-cf04-4b0f-84ef-8d86b9774eb1",
+    "title": "Traditional Japanese Village Shop House",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "dff23105-3fd7-4ffb-b9c3-c6499b664690",
+    "title": "Traditional Korean Gatehouse with Stone Foundation",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "7a0a8737-4399-49af-860b-ac84ebac6c01",
+    "title": "Stylized Cocker Spaniel Dog Sculpture",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "1dab067f-3db5-493a-adf0-56a9809f0b05",
+    "title": "Black and White Spaniel Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "4e0a8f25-8665-4bdc-b9c0-2efff2767e45",
+    "title": "German Shepherd",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "a2602dd9-a359-46af-aa06-e4c53571b99d",
+    "title": "Stylized West Highland White Terrier Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "c5f40ab5-0c21-4b7e-80d8-e881a2481f8d",
+    "title": "Photorealistic Boston Terrier Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "4ac58f7c-0c06-4fa1-a6b3-3601c8b6d810",
+    "title": "Stylized Shih Tzu Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "766486ec-a5c8-465c-af9b-43cc95371bab",
+    "title": "Stylized White Puppy Dog Figurine",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "bc696b44-a6c3-49fd-91dc-af6cfb224a67",
+    "title": "English Bulldog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "18af4efc-ab86-4faf-afbd-a337dfcbfed3",
+    "title": "Colorful Mandala Hot Air Balloon",
+    "kind": "vehicle",
+    "size": 3
+  },
+  {
+    "id": "9e12d99a-365d-4d91-8930-aa51f8462a81",
+    "title": "Stylized Fantasy Griffin Winged Lion Creature",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "5b66cb73-5b33-4732-8df8-0658c345f9ff",
+    "title": "Ancient Mesoamerican Stone Head Sculpture",
+    "kind": "landmark",
+    "size": 3
+  },
+  {
+    "id": "2b3f059e-5bb4-4629-b7e2-5f8ddcd23bfe",
+    "title": "Ancient Mesoamerican Olmec Head Sculpture",
+    "kind": "landmark",
+    "size": 3
+  },
+  {
+    "id": "4228dacd-a71b-4e77-b91a-a81e4aa16e8a",
+    "title": "Rustic Two-Story Log Cabin Cottage",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "5d87dc9c-facb-417e-8936-91fc60cdb225",
+    "title": "Realistic White Swan",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "df0b85fc-dcf7-40a0-8353-330ffcb19b73",
+    "title": "Colorful Hot Air Balloon",
+    "kind": "vehicle",
+    "size": 3
+  },
+  {
+    "id": "92f8d4e9-49d0-4f1d-9234-b31f16160065",
+    "title": "Vintage Flying Carousel Horse",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "358c6f86-517c-49b6-bb32-bb1708353315",
+    "title": "Classic Miniature Living Room Scene",
+    "kind": "prop",
+    "size": 2.2
+  },
+  {
+    "id": "26aeb336-bc5b-4fe3-b46b-2c90428a0e96",
+    "title": "Rustic Covered Wooden Crate – Medieval Fantasy Prop",
+    "kind": "prop",
+    "size": 2.2
+  },
+  {
+    "id": "c0f7420e-64f5-4129-a2e0-51128f6c5661",
+    "title": "Stylized Vintage Cabin Room Diorama",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "9c6229a8-2177-4f51-ac09-5c476f0b5da5",
+    "title": "Petrified Dark Fantasy Knight",
+    "kind": "hero",
+    "size": 1.85
+  },
+  {
+    "id": "da46c157-d3d6-4d39-a65d-97cb65cf955e",
+    "title": "Rustic Industrial Wheeled Wooden Crate",
+    "kind": "prop",
+    "size": 2.2
+  },
+  {
+    "id": "d0f99164-c05f-4aa6-b3e1-e005341cb83d",
+    "title": "Stylized Wooden Windows with Shutters",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "fed74772-7418-4355-a9cd-8af9b27ea5bc",
+    "title": "Stylized Wooden Shed with Paneled Doors",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "0c88231e-8249-4d5e-b89d-f5647ad90c1f",
+    "title": "Classical Fluted Stone Vase with Acanthus Base",
+    "kind": "prop",
+    "size": 2.2
+  },
+  {
+    "id": "98941e09-98e0-45ce-a3de-324de24fa29b",
+    "title": "Vintage Study & Observatory Miniature Diorama",
+    "kind": "prop",
+    "size": 2.2
+  },
+  {
+    "id": "2851de66-0619-47a7-aa49-6663d483fd66",
+    "title": "Anthropomorphic Wolf Warrior in Leather Armor",
+    "kind": "creature",
+    "size": 1.5
+  }
+]

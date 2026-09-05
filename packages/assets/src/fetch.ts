@@ -10,7 +10,7 @@ import { classify, type RawModel } from './classify.js';
 import type { Manifest, ModelEntry } from './types.js';
 
 const SOURCE = process.env.FLOBOTS_URL ?? 'https://3d.flobots.xyz';
-const UA = 'tellus-asset-pipeline/0.1 (+https://sshfighter.com)';
+const UA = 'tellus-asset-pipeline/0.1';
 const CONCURRENCY = 4;
 
 const HERE = dirname(fileURLToPath(import.meta.url));

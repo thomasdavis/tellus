@@ -1,46 +1,90 @@
 # Tellus
 
-A shared-world MMORPG slice: pick an avatar from the [Flobots 3D Asset Manager](https://3d.flobots.xyz)
-and run around a world together, in real time, in your browser.
+**A 3D engine for the terminal — and the small shared worlds that run on it.**
 
-It's a **Turborepo** monorepo built around a few deliberately small, reusable abstractions:
+Tellus renders real-time, truecolour 3D over SSH. A CPU software rasterizer paints
+into an RGB framebuffer; a terminal presenter packs it into Unicode sub-pixel cells
+and streams minimal ANSI deltas — so anyone with an ssh client can walk around a
+shared world, no GPU, no browser, no install.
+
+![A meadow at midday — knight, horses, pines and grass, rendered to a terminal framebuffer](docs/media/meadow-day.png)
+![The same world at golden hour: keyframed day-night light, long soft shadows](docs/media/golden-hour.png)
+
+*Both frames are real renders from the MMO's framebuffer — what a terminal shows,
+before the octant cell fitting.*
+
+## Try it
+
+```bash
+ssh -p 4020 <host>     # Tellus MMO — a shared meadow: run around, meet other players
+ssh -p 4010 <host>     # SSH sailing — single-handed dinghy sailing
+```
+
+## The monorepo
 
 ```
-apps/
-  client/   Vite + React Three Fiber — the 3D world, character select, HUD
-  server/   authoritative WebSocket world server (fixed-tick simulation)
 packages/
-  protocol/ the wire contract: constants, messages, binary snapshot codec
-  world/    shared simulation: the movement integrator, ECS, spatial-hash grid
-  assets/   pulls avatars/props from the Flobots asset manager → a runtime manifest
+  engine/     @tellus/engine — the terminal-native 3D engine (the heart of the repo)
+apps/
+  mmo/        the flagship: a shared 3D world over SSH, worker-pool rendering
+  sailing/    the first game: dinghy sailing with Gerstner-ish waves, same engine
+  server/     WebSocket world server for the browser experiment
+  client/     Vite + React Three Fiber browser client (the original prototype)
+packages/
+  protocol/   wire contract for the browser experiment (messages, binary codec)
+  world/      shared movement integrator + ECS + spatial hash for the browser experiment
+  assets/     pulls models from the Flobots asset manager into a runtime manifest
 ```
 
-## The netcode, in one breath
+Two generations live side by side: the **browser experiment** (client/server/protocol/world)
+came first and taught us the netcode; the **terminal engine** (`packages/engine`) and its
+games are where the project lives now.
 
-The keystone is **one movement function** (`packages/world/movement.ts`) run on both ends:
+### How a frame happens (the SSH games)
 
-- **Prediction** — the client integrates your input the instant you press a key.
-- **Reconciliation** — every snapshot carries the last input the server processed; the
-  client snaps to that authoritative position and replays the inputs still in flight.
-- **Interpolation** — other players are rendered ~120 ms in the past and blended between
-  snapshots, so they glide instead of teleporting.
-- **Interest management** — a spatial-hash grid means each client only hears about the
-  players near them, so bandwidth stays flat as the world fills up.
+```
+World state ──► WorldRenderer ──► RasterTarget ──► Screen cells ──► ANSI delta ──► ssh
+   (shared)      sky · terrain      RGB + depth       octant 2×4        only what      client
+                 grass · props      framebuffer       sub-pixels        changed
+                 shadows · agents
+```
 
-## Run it
+- **One process, one world**: every SSH session is a player in the same world.
+- **Worker-pool rendering**: frames rasterize on worker threads (one world copy per
+  worker, agents shipped as tiny snapshots), so input never blocks and players
+  render in parallel across cores.
+- **Determinism as a feature**: the world builds identically everywhere from seeds,
+  which is what makes stateless render workers — and byte-identical parity tests — possible.
+
+## Internal packages are source
+
+`@tellus/*` packages are consumed as raw TypeScript (`main: ./src/index.ts`, no build
+step). Change the engine and every game is instantly typed against the change.
+
+## Develop
 
 ```bash
 pnpm install
-pnpm assets          # download avatars + props from 3d.flobots.xyz → client/public/models
-pnpm dev             # turbo runs the world server + the client together
-# open http://localhost:5173  — open it in two tabs to see multiplayer
+pnpm typecheck                        # all workspaces
+pnpm test                             # includes the render-worker parity test
+pnpm --filter @tellus/mmo dev         # run the MMO locally (port 4020)
+pnpm --filter @tellus/sailing dev     # run sailing locally (port 4010)
 ```
 
-Individual pieces: `pnpm --filter @tellus/server dev` · `pnpm --filter @tellus/client dev`.
+Each SSH game generates its own host key on first run (it prints the exact
+`ssh-keygen` command). Keys live in `apps/<game>/assets/` and are gitignored.
 
-## Notes
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the layout tour, and the per-package
+READMEs for depth: [engine](packages/engine/README.md) ·
+[mmo](apps/mmo/README.md) · [sailing](apps/sailing/README.md).
 
-- The asset library is mixed: animals become **playable characters**, furniture/trees become
-  **world props**. It's all data — edit `apps/client/public/models/manifest.json` to recategorize.
-- Everything is TypeScript end-to-end; internal `@tellus/*` packages are consumed as source
-  (no build step) so a change in the protocol is immediately typed on both client and server.
+## Models
+
+World models come from the [Flobots 3D Asset Manager](https://3d.flobots.xyz),
+compiled to LOD meshes + baked textures by `packages/engine/tools/compile-glb.mjs`.
+The MMO ships its compiled meshes in-repo so it runs out of the box;
+`apps/mmo/tools/convert-all.mjs` regenerates them from source models.
+
+## License
+
+[MIT](LICENSE)
