@@ -44,8 +44,13 @@ if (!INPUT_PATH || !OUT_DIR) { console.error('usage: compile-glb.mjs <input.glb>
 
 // LOD triangle targets [min, max]; the compiler searches grid resolution to land
 // each LOD inside its range.
+// LOD0 keeps the ORIGINAL geometry (and, critically, the original UVs — grid
+// clustering averages UVs, which scrambles texture-atlas islands into mush)
+// whenever the source is at or under `passUnder` triangles; only monster meshes
+// get clustered down. LOD1/LOD2 always cluster: at their view distances the
+// averaging is invisible and the triangle savings are what matter.
 const LOD_TARGETS = [
-  { name: 'LOD0', min: 7000, max: 14000 },
+  { name: 'LOD0', min: 22000, max: 32000, passUnder: Number(process.env.LOD0_PASS ?? 32000) },
   { name: 'LOD1', min: 2200, max: 4200 },
   { name: 'LOD2', min: 600, max: 1300 },
 ];
@@ -820,6 +825,12 @@ async function main() {
   console.log(`\nBuilding LODs...`);
   const lodRaw = [];
   for (const tgt of LOD_TARGETS) {
+    const srcTris = mesh.indices.length / 3;
+    if (tgt.passUnder && srcTris <= tgt.passUnder) {
+      console.log(`  ${tgt.name}: source pass-through, ${srcTris} tris (original geometry + UVs kept)`);
+      lodRaw.push(mesh);
+      continue;
+    }
     const res = decimateToRange(mesh, bbOriented, tgt.min, tgt.max);
     console.log(`  ${tgt.name}: grid N=${res.grid}, ${res.tris} tris (target ${tgt.min}-${tgt.max})`);
     lodRaw.push(res.mesh);

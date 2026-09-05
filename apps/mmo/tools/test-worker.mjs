@@ -25,7 +25,9 @@ A.setFromFramebuffer(target.rgb, fbW, fbH, mode, 12);
 
 // --- worker ---
 const pool = new RenderPool(1);
-await new Promise((r) => setTimeout(r, 1500)); // let the worker build its world
+const t0 = Date.now();
+while (pool.readySize === 0 && Date.now() - t0 < 60000) await new Promise((r) => setTimeout(r, 200));
+console.log(`worker ready in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
 const B = await pool.render({ viewerId, eye, look, cols, rows, mode, tSec, agents: snap });
 
 let dch = 0, dfg = 0, dbg = 0;

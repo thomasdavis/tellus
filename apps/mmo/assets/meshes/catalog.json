@@ -1,320 +1,8 @@
 [
   {
-    "id": "eefdf212-9e5c-46a3-b140-4e83684a238a",
-    "title": "Stylized Cartoon Pine Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "2bb3e4fc-4cf0-4643-95b9-5abfae8f5067",
-    "title": "Sci-Fi Cyborg Papillon Dog",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "10b72cc6-d3c4-4e8b-b2cb-d7f9aad6e0e4",
-    "title": "Dog",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "006caf47-3028-4dc9-9d89-6736aaf5bf2d",
-    "title": "Basset Hound",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "39b52998-aea2-4bbe-9e39-04dd08fca7d9",
-    "title": "Stylized Robotic Cavalier King Charles Spaniel",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "58c86f30-4b3d-4546-ac96-ac067d9a20b2",
-    "title": "Stylized Carved Wooden Dog Sculpture",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "2a07f9dc-08b7-4c11-8e99-6a507aed7d35",
-    "title": "Steampunk Robotic Pug",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "744ae022-125c-4ec8-84b6-4a4ca5e3866e",
-    "title": "Steampunk Robotic Corgi",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "0ce82390-37ba-4695-9ddc-c5082899c957",
-    "title": "Steampunk Mechanical Bernese Mountain Dog",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "3ac3c9de-5e64-4fe9-b376-1c796d173937",
-    "title": "Steampunk Brass Robotic Dog",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "9c92a1ff-74ec-4fc4-b45f-b19b3f627de0",
-    "title": "Realistic Staffordshire Bull Terrier Dog",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "a8734e11-5e22-45e3-a7ed-ae6d48a9b712",
-    "title": "Stylized Brown Retriever Dog",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "790ea2e6-b028-4d52-9b33-99c366bd2968",
-    "title": "Stylized Black & White Puppy",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "c0bb24fd-7d2c-4aab-a1aa-a71c2dd7b4d2",
-    "title": "Stylized Black and Tan Dog Character",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "c2789308-5350-478c-aed7-50bb32b369f6",
-    "title": "Stylized Cartoon Dog Character",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "daca7ed3-e651-45b6-9956-a353517500ac",
-    "title": "Stylized White Bull Terrier Dog Character",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "6a76f0a7-1278-49fe-bb10-8aac879ad751",
-    "title": "Dog",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "57de1155-fea2-4252-abcb-95d7be92586e",
-    "title": "Dog",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "02fd8eaf-6bd6-4f21-9862-a32c1097e871",
-    "title": "Appaloosa Horse with Western Tack",
-    "kind": "horse",
-    "size": 2.5
-  },
-  {
-    "id": "9e149b24-2abc-41a2-83f8-38dddaa8b8c3",
-    "title": "Chestnut Horse with Leather Tack",
-    "kind": "horse",
-    "size": 2.5
-  },
-  {
-    "id": "3ba4713c-df01-4deb-9b7e-66c84a8a4238",
-    "title": "Realistic Saddled Zebra",
-    "kind": "horse",
-    "size": 2.5
-  },
-  {
-    "id": "9945cbc9-c8a4-44b8-bb01-607fadb63c39",
-    "title": "Saddled Dun Riding Horse",
-    "kind": "horse",
-    "size": 2.5
-  },
-  {
-    "id": "e1f73751-40c7-4095-a32e-3558c8569767",
-    "title": "Clydesdale Draft Horse with Saddle and Pack",
-    "kind": "horse",
-    "size": 2.5
-  },
-  {
-    "id": "e5790c52-eb45-4510-9de1-5c1b4ccd4612",
-    "title": "Pinto Horse with Western Saddle and Tack",
-    "kind": "horse",
-    "size": 2.5
-  },
-  {
-    "id": "7e30ddb9-7f0f-45df-81ac-438690be878e",
-    "title": "Stylized Black Horse with Silver Mane and Tack",
-    "kind": "horse",
-    "size": 2.5
-  },
-  {
-    "id": "ba2a9193-9678-483f-a65c-64ae8e22b7cc",
-    "title": "Realistic Friesian Horse with Saddle and Bridle",
-    "kind": "horse",
-    "size": 2.5
-  },
-  {
-    "id": "d9f2e0e2-68b5-4a52-aa49-385d418848a8",
-    "title": "Realistic Saddled Draft Horse - Dappled Grey",
-    "kind": "horse",
-    "size": 2.5
-  },
-  {
-    "id": "01b0b0da-5a4a-41b2-9df3-b581f3625a51",
-    "title": "White Horse with Ornate Saddle and Tack",
-    "kind": "horse",
-    "size": 2.5
-  },
-  {
-    "id": "1ab7f56d-48cb-4c58-bdd2-55af45365e35",
-    "title": "Stylized Draft Horse Figurine with Ornate Tack",
-    "kind": "horse",
-    "size": 2.5
-  },
-  {
-    "id": "09eabb3e-2c95-4361-81f1-c9f19dfd3903",
-    "title": "Stylized Palomino Horse with Riding Tack",
-    "kind": "horse",
-    "size": 2.5
-  },
-  {
-    "id": "00f70612-a5da-47f9-8608-0ee51f43033e",
-    "title": "Stylized Shetland Sheepdog (Sheltie)",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "672a5a69-78b2-4bc5-965a-2385b28e5c03",
-    "title": "Realistic Bloodhound Dog Model",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "2671cbf1-450d-49f5-8488-6790194dc49f",
-    "title": "Dog",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "c7cd4547-6d6d-45a2-8bf4-0288af70f8cc",
-    "title": "Fairy Tale Storybook Cottage with Balcony",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "96937e6e-6756-4271-ab73-fd7fcd2971c0",
-    "title": "Rustic Fantasy Thatched Cottage",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "45e43b9e-b450-462d-a552-3a217525d6da",
-    "title": "Traditional Japanese Stone Lantern",
-    "kind": "lantern",
-    "size": 1.3
-  },
-  {
-    "id": "4e05cef7-1473-461b-bc2f-df4726a14edc",
-    "title": "Traditional Japanese Stone Lantern (Toro)",
-    "kind": "lantern",
-    "size": 1.3
-  },
-  {
-    "id": "58e7e768-ea0d-4c84-9304-17dbfe13e541",
-    "title": "Traditional Japanese Garden Lantern",
-    "kind": "lantern",
-    "size": 1.3
-  },
-  {
-    "id": "a2fbf97d-d87f-4214-9aee-6a9e177b33ce",
-    "title": "Traditional Japanese Thatched Roof House",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "cc620e74-3e23-4359-b116-64c3beb94b57",
-    "title": "Stylized Fantasy Cottage with Garden",
-    "kind": "fountain",
-    "size": 4.5
-  },
-  {
-    "id": "eed936ac-bc55-4de7-a3c3-0a0df350e810",
-    "title": "Fantasy Storybook House with Overgrown Garden",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "d37038bd-cf04-4b0f-84ef-8d86b9774eb1",
-    "title": "Traditional Japanese Village Shop House",
-    "kind": "signpost",
-    "size": 1.6
-  },
-  {
-    "id": "10fd79ca-47c7-48cb-8eeb-44baee44a3bf",
-    "title": "Enchanted Victorian Fantasy Mansion",
-    "kind": "building",
-    "size": 13
-  },
-  {
-    "id": "1dab067f-3db5-493a-adf0-56a9809f0b05",
-    "title": "Black and White Spaniel Dog",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "7a0a8737-4399-49af-860b-ac84ebac6c01",
-    "title": "Stylized Cocker Spaniel Dog Sculpture",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "4e0a8f25-8665-4bdc-b9c0-2efff2767e45",
-    "title": "German Shepherd",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "a2602dd9-a359-46af-aa06-e4c53571b99d",
-    "title": "Stylized West Highland White Terrier Dog",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "c5f40ab5-0c21-4b7e-80d8-e881a2481f8d",
-    "title": "Photorealistic Boston Terrier Dog",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "4ac58f7c-0c06-4fa1-a6b3-3601c8b6d810",
-    "title": "Stylized Shih Tzu Dog",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "766486ec-a5c8-465c-af9b-43cc95371bab",
-    "title": "Stylized White Puppy Dog Figurine",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "bc696b44-a6c3-49fd-91dc-af6cfb224a67",
-    "title": "English Bulldog",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "9e12d99a-365d-4d91-8930-aa51f8462a81",
-    "title": "Stylized Fantasy Griffin Winged Lion Creature",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "7279bf77-56dc-48d5-a4d6-8b9dff4cdc83",
-    "title": "Stylized Village Well with Wooden Roof and Buckets",
-    "kind": "well",
+    "id": "df0b85fc-dcf7-40a0-8353-330ffcb19b73",
+    "title": "Colorful Hot Air Balloon",
+    "kind": "balloon",
     "size": 3
   },
   {
@@ -324,322 +12,16 @@
     "size": 3
   },
   {
-    "id": "acc10fb1-3607-4f1e-bd1c-5a044099a4ba",
-    "title": "Traditional East Asian Inn with Tiled Roof",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "028684c5-3e50-40b1-922a-53169dded744",
-    "title": "Traditional Japanese Shinto Shrine",
-    "kind": "gate",
-    "size": 5
-  },
-  {
-    "id": "df0b85fc-dcf7-40a0-8353-330ffcb19b73",
-    "title": "Colorful Hot Air Balloon",
+    "id": "ab419565-0d3e-4e39-975c-e05631dd71da",
+    "title": "Stylized Hot Air Balloon with Basket",
     "kind": "balloon",
     "size": 3
   },
   {
-    "id": "5d87dc9c-facb-417e-8936-91fc60cdb225",
-    "title": "Realistic White Swan",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "9c6229a8-2177-4f51-ac09-5c476f0b5da5",
-    "title": "Petrified Dark Fantasy Knight",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "2851de66-0619-47a7-aa49-6663d483fd66",
-    "title": "Anthropomorphic Wolf Warrior in Leather Armor",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "26aeb336-bc5b-4fe3-b46b-2c90428a0e96",
-    "title": "Rustic Covered Wooden Crate – Medieval Fantasy Prop",
-    "kind": "crate",
-    "size": 1.2
-  },
-  {
-    "id": "da46c157-d3d6-4d39-a65d-97cb65cf955e",
-    "title": "Rustic Industrial Wheeled Wooden Crate",
-    "kind": "crate",
-    "size": 1.2
-  },
-  {
-    "id": "fed74772-7418-4355-a9cd-8af9b27ea5bc",
-    "title": "Stylized Wooden Shed with Paneled Doors",
-    "kind": "crate",
-    "size": 1.2
-  },
-  {
-    "id": "121c652e-e16f-4cba-add0-1b99ef1d7b9f",
-    "title": "Traditional Japanese Shrine Building",
-    "kind": "gate",
-    "size": 5
-  },
-  {
-    "id": "dff23105-3fd7-4ffb-b9c3-c6499b664690",
-    "title": "Traditional Korean Gatehouse with Stone Foundation",
-    "kind": "gate",
-    "size": 5
-  },
-  {
-    "id": "5b66cb73-5b33-4732-8df8-0658c345f9ff",
-    "title": "Ancient Mesoamerican Stone Head Sculpture",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "e12c9334-e2c2-4f4d-86a0-bf6e49be9ce8",
-    "title": "Minimalist Wooden Birdhouse",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "023edf66-85a1-44f0-90a1-01f23e1891b2",
-    "title": "Photorealistic White Swan",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "d8cfe7ef-e52c-439f-91a0-9f4c3f58a2d3",
-    "title": "Ornate Mediterranean Balcony with Terracotta Roof",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "e1bb9055-1a8a-4250-8a86-84918f3e28ac",
-    "title": "Traditional Asian Wooden Lantern Post",
-    "kind": "lantern",
-    "size": 1.3
-  },
-  {
-    "id": "2b3f059e-5bb4-4629-b7e2-5f8ddcd23bfe",
-    "title": "Ancient Mesoamerican Olmec Head Sculpture",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "19679181-4c35-471a-b550-50d90faa25f8",
-    "title": "Classical Architectural Pediments & Ornamental Finials",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "7ea370fa-55b7-4e1f-88e1-b599c5c61c93",
-    "title": "Stylized Fantasy Wyvern Dragon Creature",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "33a98158-c289-424a-9ab4-dd7692997ed7",
-    "title": "Dark Fantasy Dragon Creature with Magenta Wings",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "d63f9538-372a-498e-9936-2e8f9b59e580",
-    "title": "Dark Magenta Fantasy Dragon Creature",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "c187e0e9-8077-48ca-bd5d-d19eba8afee5",
-    "title": "Red-Winged Black Dragon Creature",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "4228dacd-a71b-4e77-b91a-a81e4aa16e8a",
-    "title": "Rustic Two-Story Log Cabin Cottage",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "ae220f5b-7591-40b3-b90a-e304d544444c",
-    "title": "Gothic Ornate Stone Architectural Niche",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "8d478e54-d426-4113-8f42-39f8fcfe1979",
-    "title": "Ornamental White Stone Pedestal",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "3e9db25d-7f87-4289-a951-37cedd42f45c",
-    "title": "Realistic Wooden Garden Planter Box with Mixed Flowers",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "c3d22232-20e3-4a6d-b4da-1f0e88b52aba",
-    "title": "Rustic Wooden Garden Planter Box with Rose Bush",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "c59e7244-24f4-4097-955a-5b4f8bcc719d",
-    "title": "Classical Floral Wedding Arch and Pergola",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "8340982d-57ac-4e97-962f-de31cd89329c",
-    "title": "Art Nouveau Carved Fairy Double Doors",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "54504633-89a0-4e20-9e17-0407165a48e8",
-    "title": "Vintage Wooden Garden Cart Planter with Flowers",
-    "kind": "cart",
-    "size": 3
-  },
-  {
-    "id": "7ff7ed6e-51cc-4f15-9cc9-729fa23e262d",
-    "title": "Rustic Wooden Storage Chest",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "b0799f9a-10b2-4d6e-8cca-69ca7ae38604",
-    "title": "Minimalist Stone Storage Chest",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "5d5bdab5-746e-4747-87fb-8ff2de0a2da3",
-    "title": "Ornate Classical Pedestal Planter with Greenery",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "d8bd0c34-273c-4fb0-8b6f-ec6dca7314aa",
-    "title": "Neoclassical Stone Sarcophagus with Ornate Carved Details",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "452e6d5c-688e-422b-b0ad-43a3da8a5106",
-    "title": "Fantasy Medieval Market Stall with Barrels",
-    "kind": "stall",
-    "size": 4
-  },
-  {
-    "id": "10997bf3-a8d7-4e7e-a7e2-003ab24798f7",
-    "title": "Neoclassical Stone Pedestal Sarcophagus",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "e8342fd3-466d-4be5-bce2-4542513c083f",
-    "title": "Classical Stone Floral Archway",
-    "kind": "gate",
-    "size": 5
-  },
-  {
-    "id": "283f3060-127f-47d4-a979-c554dc1deb52",
-    "title": "Classical Ornate Stone Pedestal Plinth",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "3d6409ff-193e-4155-a197-e91a8eefe790",
-    "title": "Heartcore Android — Stylized Female Robot Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "425e99eb-e1ce-497e-b339-945d5e422dbb",
-    "title": "Minimalist Stone Pedestal Base",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "364ad39b-ff16-44df-bd3c-3471cb88123e",
-    "title": "Classical Stone Archway Portal",
-    "kind": "gate",
-    "size": 5
-  },
-  {
-    "id": "8d989a1d-092b-4e69-810d-240083fc251d",
-    "title": "Classical Ornate Stone Pedestal Plinth",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "858eb6c2-bfbe-44fe-ba2f-2086537ff7a2",
-    "title": "Neoclassical Stone Pedestal Plinth",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "d188b723-d416-4435-bc1e-bf6b131ff934",
-    "title": "Classical White Sculptural Pedestal",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "483a8ff3-468c-4676-b3ba-c7ddd3d5c5f9",
-    "title": "Classical Stone Gazebo Pavilion",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "78c9f980-4fbe-463f-a921-12246f95b904",
-    "title": "Stylized Fantasy Treehouse Tree with Lanterns",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "ccb92fae-c6dc-4eae-a912-0a2df5eb058e",
-    "title": "Ornate Classical Garden Gazebo with Climbing Flowers",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "c2f54ec3-8ea1-4048-abf0-a327491b3fbc",
-    "title": "Traditional Chinese Ornate Wooden Boat",
+    "id": "8530834b-f475-47b4-b397-05ca7efdd83f",
+    "title": "Rustic Wooden Rowboat",
     "kind": "boat",
     "size": 4
-  },
-  {
-    "id": "5860729a-a063-4b88-b170-b60bb9e8f2f8",
-    "title": "Rustic Wooden Wheelbarrow Planter with Flowers",
-    "kind": "cart",
-    "size": 3
-  },
-  {
-    "id": "72666346-81db-4149-a8f4-bb50945dba0e",
-    "title": "Ornate Carved Wooden Double Doors - Traditional Asian Style",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "6833b1ac-06d5-4566-8e1e-d0448b48fb0d",
-    "title": "Stylized Fantasy Female Character in Green Cloak",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "8235a238-5be2-4a11-b730-58074c14ae15",
-    "title": "Stylized Fantasy Anime Female Character with Star Cape",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "12211847-aadc-44f1-9a31-d32448f786b8",
-    "title": "Painterly Stylized Female Character in Red Dress",
-    "kind": "npc",
-    "size": 1.85
   },
   {
     "id": "31a73195-ae7e-460c-9012-f7d141dcf1f5",
@@ -648,802 +30,10 @@
     "size": 4
   },
   {
-    "id": "8ccc495c-40f0-4312-a01c-256a874b5897",
-    "title": "Stylized Anime Fantasy Female Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "d1c9554e-ca78-4a6d-a4e8-313067011145",
-    "title": "Moonlit Celestial Mage - Stylized Fantasy Female Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "c5c5a7f4-3bd3-4d77-9719-2af8241504e1",
-    "title": "Solar Empress – Stylized Fantasy Heroine",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "65c442ea-1ab1-4f16-a55c-ced1f856ee21",
-    "title": "Verdant Guardian Female Druid Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "7da49572-f44a-4a7d-a0d1-117a3c2e2458",
-    "title": "Traditional Chinese Pavilion with Tiered Teal Roof",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "f6353e0c-5e53-49c0-ae21-244a6a913d00",
-    "title": "Romantic Stone Garden Archway with Red Flowers",
-    "kind": "gate",
-    "size": 5
-  },
-  {
-    "id": "c0e034df-1990-4aed-a78d-20a4febffd0b",
-    "title": "Golden Dawn Valkyrie - Fantasy Female Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "6c2e7e3d-0eab-48ab-a67a-10f2f377a531",
-    "title": "Radiant Valkyrie Female Superhero",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "ed722730-17b5-4dc2-9fc3-9034085f0a82",
-    "title": "Fantasy Floral Gazebo Pavilion",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "054b49ce-d646-4fc7-9a79-a33bb172ef79",
-    "title": "Ornate Garden Fountain with Floral Archway",
-    "kind": "fountain",
-    "size": 4.5
-  },
-  {
-    "id": "ea6654de-2d75-4084-a93a-b854af2b9a77",
-    "title": "Ornate Classical Stone Gazebo Pavilion",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "0c94d15f-e2b8-429f-b0fc-88bda680da0b",
-    "title": "Classical Marble Garden Steps with Ornate Urns",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "7c1c0fb5-e969-413c-a405-ee5c41f811c6",
-    "title": "Ornate Classical Domed Temple Pavilion",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "f78342a6-bb88-4580-99ed-42fcca0a29fb",
-    "title": "Stylized Wooden Planter Box",
-    "kind": "crate",
-    "size": 1.2
-  },
-  {
-    "id": "45707971-b593-40d9-a993-267f8295d701",
-    "title": "Stylized Low-Poly Wooden Fence",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "16674ce8-5b58-47d1-858e-fddb0c6e770c",
-    "title": "Stylized Wooden Fence",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "f965e023-695b-42ee-bc37-cb27137f81ed",
-    "title": "Stylized Wooden Picket Fence Segment",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "1e572336-6f07-4304-a569-732d479a5482",
-    "title": "Stylized Low-Poly Wooden Fence Section",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "14d17fd3-3de4-486a-b621-4ae26d36f52c",
-    "title": "Stylized Wooden Fence Panel",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "fb02b6e8-f4e1-4bad-9286-73bcff128eb6",
-    "title": "Stylized Wooden Picket Fence Section",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "e4b873a7-0184-4240-9b3a-4ee75f51245d",
-    "title": "Stylized Wooden Picket Fence",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "699f87a3-8264-436f-b039-045fbcb90fff",
-    "title": "Stylized Wooden Picket Fence",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "d25a7856-120c-4bc2-a5d8-f07dad93873f",
-    "title": "Ornate Neoclassical Marble Gazebo",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "2f71e53b-30d3-4736-a72f-dceede279f25",
-    "title": "Stylized Wooden Planter Crate",
-    "kind": "crate",
-    "size": 1.2
-  },
-  {
-    "id": "1212ad24-0e0e-4ecd-a962-2da54f9ae406",
-    "title": "Stylized Three-Rail Wooden Fence",
-    "kind": "prop",
-    "size": 2
-  },
-  {
-    "id": "38d2df65-7478-4ac1-aed4-ef5870e929c3",
-    "title": "Classical Garden Fountain Pavilion with Statues and Flowers",
-    "kind": "fountain",
-    "size": 4.5
-  },
-  {
-    "id": "93503bf1-53c2-4016-8ce9-f40986fa63a6",
-    "title": "Quaint Miniature Green Garden Shed",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "a387bc60-2bcb-4538-a611-46ac660a62ff",
-    "title": "Ornate Classical Garden Gazebo Pavilion",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "7f7ba0e4-c33e-4c32-b3aa-4c69a181b955",
-    "title": "Neoclassical Floral Garden Archway",
-    "kind": "gate",
-    "size": 5
-  },
-  {
-    "id": "556ba4b4-b438-402b-99ce-7585f68bf86e",
-    "title": "Stylized Wooden Picket Fence",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "4dacd6bd-e206-4775-85c7-572371474f47",
-    "title": "Stylized Fantasy Stone Well with Wooden Roof and Bucket",
-    "kind": "well",
-    "size": 3
-  },
-  {
-    "id": "f9d520e3-4770-4507-8b7b-ade3ca5cc6fc",
-    "title": "Ornate Fantasy Medieval Gazebo Pavilion",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "182cf9b1-d1ee-4081-a8da-4c35c466d1f8",
-    "title": "Stylized Japanese Onsen Hot Spring Scene",
-    "kind": "lantern",
-    "size": 1.3
-  },
-  {
-    "id": "8cf72e80-f8b0-4d0c-bc61-655f9be59b37",
-    "title": "Stylized Market Stall with Food Display",
-    "kind": "stall",
+    "id": "978e10e9-cd01-4eb4-ae46-fd7e31e8db2e",
+    "title": "Stylized Wooden Rowboat",
+    "kind": "boat",
     "size": 4
-  },
-  {
-    "id": "2600dfcd-da07-469d-8637-091755c9b674",
-    "title": "Multicolored Mosaic Spherical Lounge Pod",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "4e337416-15b8-4217-b5c1-cc7419ea17c2",
-    "title": "Azure Jade Empress — Stylized Fantasy Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "89591d00-1281-4166-873c-20856eddbf3a",
-    "title": "Retro Pin-Up Girl Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "752bb2da-df56-4308-99e4-5eddb4a4ace9",
-    "title": "Traditional Chinese Garden Pavilion",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "54698161-6214-423a-9b8e-4d6b21d0d765",
-    "title": "Stylized Traditional Asian Garden Shop",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "3caface4-5119-4ccb-8c33-49aaa8834922",
-    "title": "Stylized Cherry Blossom Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "fa6fa7f4-7b71-4f0e-962f-4b9eb00ab483",
-    "title": "Classical Neoclassical Stone Gazebo Pavilion",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "9247e500-6c73-4b06-a287-8dd9da4c1cf6",
-    "title": null,
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "fc0b2084-36a7-45f0-93ff-cf7ab8c12c45",
-    "title": "Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "39bc16d7-8816-458c-87d1-0fc4ad5766e1",
-    "title": "Stylized Coniferous Pine Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "72f7003f-d558-40fc-847f-3c8d9c4c1d60",
-    "title": "Stylized Deciduous Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "69cd08d3-e6af-424b-8b85-0b88bbed03f6",
-    "title": "Realistic Oak Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "9a47dccf-5251-44c9-b609-e8d71d84feb2",
-    "title": "Stylized Cartoon Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "4930bf86-4d07-40e1-b574-1b8922109c3d",
-    "title": "Stylized Golden Foliage Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "82a7f523-220a-4dc9-92fb-591b8fbf32ea",
-    "title": "Stylized Cartoon Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "b07a6398-c102-4078-be7a-0f19b66eec6a",
-    "title": "Stylized Purple Fantasy Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "30deadcf-fee2-4aeb-967b-c92258f52163",
-    "title": "Stylized Deciduous Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "0aaba024-d955-44dd-9bf4-9dd66e6fe3df",
-    "title": "Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "141ccf36-d856-4254-beb7-358a1366674b",
-    "title": "Stylized Pine Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "ff3463cd-bcc2-44b0-9eaf-2cd7c80bba2c",
-    "title": "Stylized Broadleaf Oak Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "994d3b95-61ce-4ebb-a351-7878d8ca89d6",
-    "title": "Stylized Deciduous Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "dfd4407a-67a6-4a87-96a8-14b14767d5dd",
-    "title": "Cartoon Wheeled Animal Toy Character",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "0529178a-1ee1-4840-ab50-70c320f63392",
-    "title": "Native American Warrior Chief with Feathered Headdress",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "36f4bbaf-3e34-484a-9ade-917718d94ad8",
-    "title": "Realistic Broadleaf Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "8a468a23-fbb9-4d0b-b59e-60e99b3077c5",
-    "title": "Realistic Deciduous Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "c6a4af16-298d-46bc-9fa2-f3d7cb60925d",
-    "title": "Realistic Deciduous Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "8587f027-5e90-4c70-9e52-86f526d951e4",
-    "title": "Stylized Deciduous Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "13248713-fa91-4ac2-a52a-c153643e7158",
-    "title": "Realistic Deciduous Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "8e60c582-bd43-4648-a8cf-86a3f7f0b798",
-    "title": null,
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "bf1c6763-b147-4a73-8460-46a7ce413f02",
-    "title": "Stylized Low Poly Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "4c199686-1390-42b3-b01b-d6851088ddf0",
-    "title": "Realistic Broadleaf Deciduous Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "855e87c6-bbb1-4e60-b0de-25f4f955cd35",
-    "title": "Stylized Low-Poly Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "0102e585-fab8-465b-87eb-c0580421440c",
-    "title": "Stylized Cartoon Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "de878d67-b83a-4b39-b39e-ce5585f7a164",
-    "title": "Stylized Golden Autumn Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "4aa1d1b5-028f-4714-8cfb-57dcfe8c0b10",
-    "title": "Stylized Low-Poly Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "2b64b91a-cc16-4b03-afef-7f09cbf3a0cc",
-    "title": "Fern",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "344ec31e-c99d-4644-b495-36de017d6f2b",
-    "title": "Photorealistic Banana Plant",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "c2c100e2-df7c-4da7-96e3-b4dbe33645d9",
-    "title": "Realistic Tropical Fan Palm Plant",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "124d6b49-4d5e-4b05-bc81-848ef6f7377a",
-    "title": "Photorealistic Green Leaf Sprig Cluster",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "05b470d3-f8c5-4a5e-8426-2ff1121b6b34",
-    "title": null,
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "98adc550-404a-41a2-9db7-62275d6fee90",
-    "title": null,
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "9f2c56cb-d47f-4231-83e0-ed651102a6e5",
-    "title": "Stylized Deciduous Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "34a23d0b-c2ca-4c35-bc59-d4e17531d386",
-    "title": null,
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "f5e04f52-71fc-4bbd-93ec-dedc1a69e246",
-    "title": "Stylized Golden Empress Fantasy Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "584589a6-0623-4a29-8a36-25031f9c958e",
-    "title": "Stylized Egyptian Goddess Hathor Figurine",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "657549b0-a40e-44e4-9b8f-19786721fe59",
-    "title": "Emerald Dragon Emperor Fantasy Character",
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "124c72bf-0b75-4c4f-ba2b-cbe26523b2ff",
-    "title": "Frostbound Queen - Fantasy Royal Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "56d3226d-95dc-44b8-886b-4beb663890ef",
-    "title": "Frostborne Warlord – Fantasy Knight Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "606ac51c-4deb-4f60-a263-c014b7b9d355",
-    "title": "Ornate Bronze Empress Statue",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "5e33b902-f547-482f-90f2-0060232ec39f",
-    "title": "Golden Leopard King - Ancient Egyptian Fantasy Warrior",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "208a7173-ae97-4086-9e09-a45c9dd6acc4",
-    "title": null,
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "b954c4fc-7a1a-4303-a2b3-31ddc7be1686",
-    "title": null,
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "2801453d-2df2-4330-a598-6881f2ff3b2a",
-    "title": null,
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "bfb308a7-2356-4c24-851c-d00774aab87c",
-    "title": null,
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "60d25d04-d82b-45a4-a6b2-c75e7feabe2b",
-    "title": "Stylized Cartoon Pink Flower",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "99904d45-7141-4859-a4c2-ec0abebc5d36",
-    "title": "Stylized Coral Pink Cartoon Flower",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "fe29d364-2a3d-4ac5-b1ad-fe58fa31c952",
-    "title": "Stylized Peach Flower Bloom",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "80b4a76f-27f4-4ba3-bb63-47c54f5995b9",
-    "title": "Stylized Green Fern Plant",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "7e828606-9de1-40e6-8273-8c1322875e56",
-    "title": "Emperor of Olympus - Mythological God Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "c15e0f59-2784-4a02-bbb5-6ab0d31cc79c",
-    "title": "Golden Athena Greek Goddess Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "668e2ff1-03aa-433c-9c26-31d7f82e47dd",
-    "title": null,
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "0b5bbff2-caea-45a3-9072-6fae18417ef6",
-    "title": "Antlered Forest King Fantasy Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "b0d675da-221e-4046-860c-2e584118df9e",
-    "title": "Verdant Empress Fantasy Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "3859b34d-a765-4fd0-ad77-91b6bd724c1c",
-    "title": null,
-    "kind": "creature",
-    "size": 1.5
-  },
-  {
-    "id": "1387ed06-4918-48dc-bd09-3e1b310c889b",
-    "title": "Stylized Pine Tree with Grass Base",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "cd2dce57-d8d5-4531-b976-ca0f754e1909",
-    "title": "Stylized Pine Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "75a13e2e-85e6-43a4-8ea8-24851d348b78",
-    "title": "Stylized Cartoon Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "2a5623f6-e865-4d56-877c-d1bf29961d2f",
-    "title": "Stylized Fantasy Tree with Gnarled Trunk",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "88279d72-68dd-4b9c-a5bb-661cb418d91a",
-    "title": "Stylized Low-Poly Fantasy Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "aac164ea-539f-4cfd-90d9-fedc76a5dc0e",
-    "title": "Stylized Fantasy Red Tree with Gnarled Trunk",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "f66b2461-a521-4db5-a7eb-540a9577d856",
-    "title": "Stylized Monochrome Male Head Bust",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "7b28249d-4eba-4215-9cd1-19a467d13186",
-    "title": null,
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "80360b71-ea18-4ca6-943f-db5cb409b921",
-    "title": "Stylized Mushrooms on Mossy Log",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "ca7fdca6-dbb7-4c5b-98d0-c54baea6b71b",
-    "title": "Snow-Covered Coniferous Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "aec0c23e-4f6e-4ebe-84a9-4020be64ea3f",
-    "title": "Stylized Evergreen Pine Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "ba8e5992-b869-4d08-8c2e-bdf2b94bf36b",
-    "title": "Stylized Low-Poly Pine Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "77fd8f3d-8506-4a8c-bdae-09dc8d0e9845",
-    "title": "Stylized Wildflower Cluster with Terrain Mound",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "3f478ad7-592f-4c5b-8ba4-b4a5f32c6cf7",
-    "title": "Fantasy Priestess Character with Celestial Robe",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "4017786f-1742-4d5a-a621-7bd9392c8040",
-    "title": "Stylized Fantasy Trading Post Camp Platform",
-    "kind": "stall",
-    "size": 4
-  },
-  {
-    "id": "2804ac8a-e2c9-49fb-a1b4-643158b9168d",
-    "title": "Overgrown Stone Ruin Archway",
-    "kind": "gate",
-    "size": 5
-  },
-  {
-    "id": "62b441bc-2eca-4468-a2f1-32fa20e1972f",
-    "title": "Stylized Low-Poly Mountain Cabin",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "68811b16-4224-4305-896f-e938220fee08",
-    "title": "Stylized Colorful Wildflower Cluster",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "66facaf2-c605-4d09-b907-fca5fb079aa1",
-    "title": "Rustic Thatched Stilt House Hut",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "1c0f6bd5-41ae-4e11-8f5d-0a8cad209f0a",
-    "title": "Stylized Small Pine Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "89018486-faf4-47a4-9e48-b675fc55b4db",
-    "title": "Ornate Vintage Rickshaw / Trishaw",
-    "kind": "cart",
-    "size": 3
-  },
-  {
-    "id": "1bc9522a-fc8f-4f2a-ab16-c4707401a1d5",
-    "title": "Stylized Tropical Palm Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "fbe51846-992c-41e7-91a0-0c51ce5e7b09",
-    "title": "Stylized Purple & Blue Wildflower Cluster",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "32f44f6e-d67b-4f88-a4d4-66145b5dec17",
-    "title": "Watercolor Pink Wildflower Cluster",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "51a23c1e-0255-4966-9907-a9d3fb8e6500",
-    "title": "Stylized Cartoon Flower in Soft Pastel Colors",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "f6ad4b28-273c-4b19-92a3-f538412023aa",
-    "title": "Ancient Mossy Stone Archway Ruin",
-    "kind": "gate",
-    "size": 5
-  },
-  {
-    "id": "38574ae0-63f6-4b88-b9f2-5edddaad1c2d",
-    "title": "Stylized Wooden Garden Bridge with Stone Foundations",
-    "kind": "bridge",
-    "size": 6
-  },
-  {
-    "id": "6e0624e5-a48d-4477-a774-4c96f3cb5d3a",
-    "title": "Stylized Red Potted Flower",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "d84595a9-6a57-4e31-b504-aadbfef80ded",
-    "title": "Japanese Stone Garden Lantern Tōrō",
-    "kind": "lantern",
-    "size": 1.3
-  },
-  {
-    "id": "108c7dd8-6d95-4f8b-b1dd-5ad27118cecc",
-    "title": "Two-Story Alpine Stone & Timber Chalet",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "aaae03fe-efbe-46bc-8918-5e8fec55c01d",
-    "title": "Rustic Wooden Garden Bench",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "ce388576-4507-44cf-9aee-a4cc6a344f6e",
-    "title": "Moai Stone Head Statue",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "b246a71e-dc2f-4803-86ca-9080e9f9eff8",
-    "title": "Ancient Stone Circle Platform with Runes",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "e486ff9e-280e-430d-b03a-b7b5cc203907",
-    "title": "Stylized Painterly Deciduous Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "e26778c3-f75c-407c-b528-0008dc16453a",
-    "title": "Stylized Aztec Warrior Character",
-    "kind": "npc",
-    "size": 1.85
   },
   {
     "id": "adb06115-1f64-4ada-b735-5926c36b211c",
@@ -1452,250 +42,52 @@
     "size": 4
   },
   {
-    "id": "8eec66ff-0a74-40d1-afe6-101893026cc2",
-    "title": "Stylized Fantasy Mushroom Cluster",
-    "kind": "plant",
-    "size": 1.2
+    "id": "c2f54ec3-8ea1-4048-abf0-a327491b3fbc",
+    "title": "Traditional Chinese Ornate Wooden Boat",
+    "kind": "boat",
+    "size": 4
   },
   {
-    "id": "6f9eda29-617f-464d-8cf5-2cbf8857ca8b",
-    "title": "Stylized Mullein Plant",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "d6225db9-7f66-4c7e-ae32-24469ab9547f",
-    "title": "Stylized Pink Flowering Plant",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "cc222bcf-a4dc-4ec2-a9b0-d9db3cd767b3",
-    "title": "Stylized Fern Leaf Plant",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "5564d686-9ba2-4e38-8a1d-d81b3a689937",
-    "title": "Stylized White Wildflower Plant with Soil Base",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "5e8d6c4f-70cd-4107-a385-60ab19350b19",
-    "title": "Stylized Purple Flowering Plant with Stone Base",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "ba4ba994-8574-4473-8bd5-3ab11b6bff6d",
-    "title": "Stylized Yellow Flower Plant",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "64d6c66c-ef3c-4f36-874c-c05ceecd0544",
-    "title": "Stylized Coffee Plant with Ripe Cherries",
-    "kind": "tree",
+    "id": "459febbe-d6dc-49cf-839a-c1db03aa7296",
+    "title": "",
+    "kind": "bridge",
     "size": 6
   },
   {
-    "id": "e47ded91-0080-4a3a-8647-eb4a7d339d24",
-    "title": "Stylized Cartoon Houseplant in Pot",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "34b24cda-6c5f-454b-aea6-7fff1f8c45ac",
-    "title": "Stylized Cassava Plant",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "48f0a0f8-bd20-4b96-a96a-985c98ae475e",
-    "title": "Stylized Cacao Tree with Pods",
-    "kind": "tree",
+    "id": "44d1d8b1-f18e-4a4b-a51d-13332d8ebcf2",
+    "title": "Stylized Wooden Footbridge with Stone Supports",
+    "kind": "bridge",
     "size": 6
   },
   {
-    "id": "b39c91b6-4a04-4cb8-9226-f47c5273e12d",
-    "title": "Stylized Bell Pepper Plant - Cartoon Garden Vegetable",
-    "kind": "plant",
-    "size": 1.2
+    "id": "38574ae0-63f6-4b88-b9f2-5edddaad1c2d",
+    "title": "Stylized Wooden Garden Bridge with Stone Foundations",
+    "kind": "bridge",
+    "size": 6
   },
   {
-    "id": "a3cddce7-c886-43cf-9115-5a7d4ed8b129",
-    "title": "Stylized Golden Wheat Stalks with Rock Base",
-    "kind": "plant",
-    "size": 1.2
+    "id": "8ca9f659-2764-4795-a0ea-546bf3c3427a",
+    "title": "Stylized Wooden Garden Bridge with Stone Supports",
+    "kind": "bridge",
+    "size": 6
   },
   {
-    "id": "0bfb596f-6ef6-47dc-b097-ad77d03884f3",
-    "title": "Stylized Pea Plant with Pods and Flowers",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "47e8cdfd-2a6c-413f-8f8f-770b9a527644",
-    "title": "Stylized Onion Cluster with Green Stalks",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "dcb03206-242a-4998-8451-522a35d9a952",
-    "title": "Stylized Beet Cluster with Leafy Greens",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "6d06f0e3-dd62-4d49-a422-af83b2ced693",
-    "title": "Stylized Potato Plant with Tubers",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "a61f9a5c-71aa-49da-a281-313c3147b58e",
-    "title": "Stylized Flowering Herb Plant",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "225fda8d-a577-48c7-99e4-11e75ef2971b",
-    "title": "Stylized Orange Flowering Plant",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "6baeb0bf-0096-41e8-9322-c3c16c591bb3",
-    "title": "Stylized Pink Daisy Flower Cluster with Soil Base",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "5d520c76-db8d-4e4c-b4d0-a9b7c5404de7",
-    "title": "Stylized Daisy Cluster with Foliage and Rocks",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "f7851ca8-3b79-4450-88c8-b2208991200c",
-    "title": "Stylized Aloe Vera Succulent Plant",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "d6a7a669-fe2e-40ba-9045-56ef23c21af5",
-    "title": "Stylized Cabbage with Soil Base",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "de85712e-4618-46d4-a179-4738251aa3ea",
-    "title": "Cartoon Pumpkin Plant with Vine, Leaves & Flower",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "dd2d70b7-480f-4176-ac02-b35fea34cb0e",
-    "title": "Stylized Cartoon Carrot Plants Cluster",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "e7a4c50b-b2d8-4399-adf2-1c31c860e23a",
-    "title": "Stylized Corn Plant",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "13669de5-5bd7-40d8-aa7b-6f220a6ca808",
-    "title": "Stylized Tomato Plant with Fruit",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "a84fdb26-dd27-42af-9dac-e3cc9bd186f2",
-    "title": "Stylized Yellow Fruit Plant",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "aa240a9c-ae03-4850-aea0-285e6ef6f035",
-    "title": "Stylized Red Berry Bush",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "1df612f4-c31f-499e-bb21-2997f02ba8ac",
-    "title": "Stylized Blackberry Plant with Berries and Flowers",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "d73c8a9d-99a2-4166-82b2-2536a1adc2ea",
-    "title": "Stylized Berry Plant with Red Fruit",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "c22980df-b7e7-47b5-b79c-72e34fdaf67d",
-    "title": "Blueberry",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "fae8c823-0dc3-4c27-a5ce-a17631673191",
-    "title": "Stylized Cartoon Strawberry Plant",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "66696d8c-b4bd-4e85-b3c6-5e838af9f4ce",
-    "title": "Stylized Purple Flower Cluster with Leaves",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "ef2f6700-fc80-4473-a110-2987d186dd91",
-    "title": "Stylized Cartoon Flower Plant with Rocks",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "ccded334-d6da-4584-ab9a-985c81042dfa",
-    "title": "Stylized Black Pepper Plant",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "93e31e68-045a-409d-a570-4e3a1f071c7f",
-    "title": "Stylized Chili Pepper Plant",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "d6ed09e3-7494-456b-a1f4-4bb2b9e91fce",
-    "title": "Stylized Turmeric Plant with Flower and Roots",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "38a88341-2031-4448-8970-ed8cf0554495",
-    "title": "Stylized Ginger Plant with Rhizome",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "438a3813-6ffc-4a59-b5c2-75976f957d41",
-    "title": "Rustic Wooden Chair with Carved Details",
+    "id": "c59e7244-24f4-4097-955a-5b4f8bcc719d",
+    "title": "Classical Floral Wedding Arch and Pergola",
     "kind": "building",
     "size": 9
   },
   {
-    "id": "05cd6ec5-0517-4777-82ba-1bd7c0dc0a7a",
-    "title": "Stylized Watercolor Wildflower Cluster",
-    "kind": "plant",
-    "size": 1.2
+    "id": "fa6fa7f4-7b71-4f0e-962f-4b9eb00ab483",
+    "title": "Classical Neoclassical Stone Gazebo Pavilion",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "483a8ff3-468c-4676-b3ba-c7ddd3d5c5f9",
+    "title": "Classical Stone Gazebo Pavilion",
+    "kind": "building",
+    "size": 9
   },
   {
     "id": "8166a0bd-703d-4810-9433-d59480f87834",
@@ -1704,416 +96,62 @@
     "size": 9
   },
   {
-    "id": "fe19c3d8-8576-41cc-9b6c-dbdf1b24bc9f",
-    "title": "Classical Two-Tiered Stone Garden Fountain",
-    "kind": "fountain",
-    "size": 4.5
-  },
-  {
-    "id": "3e059d3c-8661-4762-ac82-90fb5a6f3191",
-    "title": "Weathered Driftwood Branch – Natural Coastal Wood Prop",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "e5fe3471-c8b2-4188-a2ed-2a73126e4927",
-    "title": "Ancient Rune Stone Marker in Sand",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "db1362ba-b5c2-44ab-9728-e45dd4777329",
-    "title": "Smooth Stone Meditation Buddha Statue",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "f0105918-03e4-4dae-b409-e93fd7a815a8",
-    "title": "Minimalist Stone Buddha Meditation Statue",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "29716cc7-c92d-40e2-ac87-f175f5cc466a",
-    "title": "Ancient Stone Stele with Hieroglyphic Carvings",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "48b7b290-08d7-45c5-87ab-9ee8aaec1c00",
-    "title": "VRM Character Avatar Model",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "ba720a9b-d793-4745-a449-9c8b7122ec77",
-    "title": "Stylized Cartoon Flower Cluster",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "83ce1eef-d883-404a-bde8-e94c5a91cfa8",
-    "title": "Weathered Driftwood Spiral Sculpture",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "85c5c1cd-cdd1-441c-94fe-41ca4ea003f5",
-    "title": "Ancient Runic Stone Marker — Weathered Mossy Monument",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "0823576e-7984-4d6d-a18a-c9c8a9e4cd01",
-    "title": "Rustic Thatched Roof Cottage",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "913a4c71-413f-41e8-9522-b5faf907097c",
-    "title": "Ancient Stone Garden Lantern",
-    "kind": "lantern",
-    "size": 1.3
-  },
-  {
-    "id": "3228b348-b41e-459b-a7f1-df26849851cc",
-    "title": "Female Elf Fantasy Warrior Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "100eecb0-f300-4661-b069-d3115dcb00d7",
-    "title": "Classical Greek Goddess in Draped Tunic",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "cb614ff6-0cc6-4863-810d-82eed602a596",
-    "title": "Greek Demigod Hero – Stylized Fantasy Warrior",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "6ac277c2-1374-4a33-9d54-6e8da950fda1",
-    "title": "Ancient Egyptian Pharaoh Figure",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "19045dd8-490e-4cd5-b383-6206e37ec008",
-    "title": "Stylized Fantasy Pharaoh Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "35875d9a-5483-48c5-aaa2-7a8f5666a7b9",
-    "title": "Two-Tier Stone Garden Fountain",
-    "kind": "fountain",
-    "size": 4.5
-  },
-  {
-    "id": "eedf340d-6409-4dee-bb7c-fd9b0d7a4107",
-    "title": "Stylized Blueberry Bush",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "04c399c9-1980-4c23-aba4-4d76b56b8129",
-    "title": "Stylized Cartoon Berry Bush with Rocks",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "b5a94b54-fab0-4adf-94a1-62f16e157411",
-    "title": "Stylized Berry Bush with Rocks",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "dd039e5f-139f-43f8-bdff-654901086e5d",
-    "title": "Stylized Blackcurrant Bush",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "7eb3d646-76d3-45a3-991e-010afe1fa6f8",
-    "title": "Stylized Red Berry Plant",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "a96b8505-dc3b-48a7-bf2f-0f4c89183cb9",
-    "title": "Stylized Purple Berry Bush",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "fbf106c2-7ba0-42c1-bf6b-238f229d24e6",
-    "title": "Stylized Fantasy Goddess Statue",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "2179f496-f5c0-41e5-8714-e1881fdbfb6b",
-    "title": "Stylized Female Android — White Sci-Fi Robot Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "a4e13eb7-3c85-4791-848f-0e923eedcb01",
-    "title": "White Female Android Robot Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "d4756289-cc98-478f-a4c1-4b237d638d80",
-    "title": "Stylized Orange Cartoon Flower",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "e3947f4d-ef06-4572-b1aa-4318cee91e6d",
-    "title": "Realistic Protea Flower with Leaves",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "33b643c0-fc27-424f-9b8b-bf76eecd3144",
-    "title": "Stylized Potted Orange Flower",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "b3766fc7-cfb0-456b-93cd-7e7e81d46a54",
-    "title": "Stylized White Daisy Flower Cluster",
-    "kind": "plant",
-    "size": 1.2
-  },
-  {
-    "id": "f0268d57-fbed-4b12-90cc-1832bcd5ba98",
-    "title": "Stylized Low-Poly Palm Frond Plant",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "75a97eac-42cd-48f7-ad78-b0bcbacd3bf2",
-    "title": "Palm Tree",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "9f320e93-3c7f-4eca-9860-1f355d781079",
-    "title": "Female Fantasy Archer Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "c0555ced-d5ba-4f72-86e5-dfcf20a5dad1",
-    "title": "Fantasy Male Elf Adventurer",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "75be3aea-4e9f-4e37-90b7-02ac4a0b2294",
-    "title": "Stylized Fantasy Elf Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "e7fbbae2-2bb2-432e-a389-963a63225bc9",
-    "title": "VRM Humanoid Avatar Character Model",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "0c777a2c-b861-4a76-ae88-dd1a81794269",
-    "title": "Roman Centurion Warrior Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "7b02e176-679b-4036-ba47-b9b8336ce6bf",
-    "title": "Stained Glass Fantasy Gazebo Pavilion",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "478da5c2-37b4-47a9-8f21-82588281b1b2",
-    "title": "Fantasy Magic Portal Gateway",
-    "kind": "gate",
-    "size": 5
-  },
-  {
-    "id": "2987ca78-80cb-4f21-8e35-202be210bdd2",
-    "title": "Fantasy Stone Portal Gateway",
-    "kind": "gate",
-    "size": 5
-  },
-  {
-    "id": "67680209-3749-479b-b9b8-744b890d9812",
-    "title": "Dark Fantasy Magic Portal Gateway",
-    "kind": "gate",
-    "size": 5
-  },
-  {
-    "id": "d8a6bd64-000c-4dd2-8db6-fd7cdae2d3a7",
-    "title": "Stylized Stone Viking Warrior Statue",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "63a91d04-ad04-40e2-87ca-890e5a17ceeb",
-    "title": "Stylized Low-Poly Wizard with Spellbook",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "e023a66b-fc6a-49cc-940f-03ed1688f4db",
-    "title": "Small Birch Tree with White Bark and Green Leaves",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "e388ef4b-0d25-4cca-ba31-daaff3cd69d5",
-    "title": "Greek Goddess Statue - Mythological Female Figure",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "49634a3f-4468-47ce-b219-d231fe344a11",
-    "title": "Azure Sentinel — Futuristic Sci-Fi Humanoid Robot",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "26826046-2c5d-497d-85dd-d4ba135dfe33",
-    "title": "Medieval Queen Carved Stone Sculpture",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "e1d4140c-896d-4e2a-b65b-e0658c6681af",
-    "title": "Stylized Seated King Stone Figurine",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "7c931a2c-8e92-4d4f-9c1d-8910c0d99a13",
-    "title": "Medieval Seated King Statue",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "7fde77d5-7c1e-44b4-a480-385efc2749d5",
-    "title": "Ancient Stone Tiki Totem with Runic Carvings",
-    "kind": "landmark",
-    "size": 5
-  },
-  {
-    "id": "12a4f1d0-86ff-42e2-84e0-8839902f2f9c",
-    "title": "Rustic Wooden Bench",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "8cd211de-0928-47b4-afc3-3e37c5c48297",
-    "title": "Medieval Bishop Statue - Stylized Stone Sculpture",
+    "id": "10fd79ca-47c7-48cb-8eeb-44baee44a3bf",
+    "title": "Enchanted Victorian Fantasy Mansion",
     "kind": "building",
     "size": 13
   },
   {
-    "id": "4905dfe6-f2a1-48ea-aadc-16cdf71d7614",
-    "title": "Stylized Oak Tree with Painterly Green Foliage",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "ed79796c-c10c-42f0-abd0-6c7f9925e89a",
-    "title": "Traditional Oriental Wooden Pavilion",
+    "id": "c7cd4547-6d6d-45a2-8bf4-0288af70f8cc",
+    "title": "Fairy Tale Storybook Cottage with Balcony",
     "kind": "building",
     "size": 9
   },
   {
-    "id": "006930b8-3935-46ad-8f83-9bfa16534bcf",
-    "title": "Whimsical Fantasy Storybook Cottage",
+    "id": "6cc86aa1-cadd-4a7e-b5ea-feb16155a485",
+    "title": "Fantasy Fairytale Cottage House",
     "kind": "building",
     "size": 9
   },
   {
-    "id": "7958fd0b-dac9-4b72-9fab-79eaa30fd401",
-    "title": "Stylized Zen Meditation Pavilion",
+    "id": "ed722730-17b5-4dc2-9fc3-9034085f0a82",
+    "title": "Fantasy Floral Gazebo Pavilion",
     "kind": "building",
     "size": 9
   },
   {
-    "id": "18089998-667e-4d3c-a370-f0610fa05de0",
-    "title": "VRM Character Avatar",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "d04c462a-2693-4db5-99dd-ca92b1561d95",
-    "title": "Stylized VRM Character Avatar",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "8ca01eca-0786-4750-af81-3657a6409acc",
-    "title": "Stylized Fantasy Female Character in Red Dress",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "54c2b645-660a-4a5d-937a-3e01756d7d07",
-    "title": "Stylized Alice in Wonderland Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "9dd82a53-795d-41e1-9402-047cd39b256c",
-    "title": "Female Fantasy Warrior in Dark Armored Gear",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "e0cfc867-e6c7-4db8-a98c-284caa0e22da",
-    "title": "Gothic Nobleman Character - Victorian Aristocrat Avatar",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "9759e88d-42ab-48be-b92b-e8b149b1e701",
-    "title": "Whimsical Fantasy Fairy Tale Cottage",
+    "id": "07723f7f-5845-43cd-9033-b7fd3585a2a0",
+    "title": "Fantasy Half-Timbered Cottage with Moss",
     "kind": "building",
     "size": 9
   },
   {
-    "id": "64140ff5-5b39-4c01-915b-5deb8da6f38a",
-    "title": "Small Rustic Wooden Cabin",
+    "id": "314f7d9b-e9db-4b20-9330-debd490975de",
+    "title": "Fantasy Storybook Cottage House",
     "kind": "building",
     "size": 9
   },
   {
-    "id": "97c38af4-c9eb-4b0f-b5df-1c34b8507018",
-    "title": "Rustic Sandstone Gravestone Monument",
-    "kind": "landmark",
-    "size": 5
+    "id": "2fd72e49-895b-4cd2-8b46-985106d724ae",
+    "title": "Fantasy Storybook Cottage with Foliage",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "8bd8a926-7d62-473b-b7ed-c713b25188cb",
+    "title": "Fantasy Storybook Cottage with Turret",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "eed936ac-bc55-4de7-a3c3-0a0df350e810",
+    "title": "Fantasy Storybook House with Overgrown Garden",
+    "kind": "building",
+    "size": 9
   },
   {
     "id": "7cf6a732-46a4-4605-8dd4-3c9b757c6007",
     "title": "Fantasy Thatched Roof Fairy House",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "9ff47f6e-6988-4c5b-9b9a-5fa2c71b3afa",
-    "title": "Stylized Tudor Fantasy Cottage",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "64a90530-a90b-44b8-8676-050edbcf79c1",
-    "title": "Whimsical Storybook Cottage House",
     "kind": "building",
     "size": 9
   },
@@ -2124,8 +162,8 @@
     "size": 13
   },
   {
-    "id": "8bd8a926-7d62-473b-b7ed-c713b25188cb",
-    "title": "Fantasy Storybook Cottage with Turret",
+    "id": "dce815d5-732d-468c-ae0f-f2be53634b80",
+    "title": "Gothic Revival Ornate Garden Gazebo",
     "kind": "building",
     "size": 9
   },
@@ -2136,8 +174,152 @@
     "size": 9
   },
   {
+    "id": "8cd211de-0928-47b4-afc3-3e37c5c48297",
+    "title": "Medieval Bishop Statue - Stylized Stone Sculpture",
+    "kind": "building",
+    "size": 13
+  },
+  {
+    "id": "2600dfcd-da07-469d-8637-091755c9b674",
+    "title": "Multicolored Mosaic Spherical Lounge Pod",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "72666346-81db-4149-a8f4-bb50945dba0e",
+    "title": "Ornate Carved Wooden Double Doors - Traditional Asian Style",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "7c1c0fb5-e969-413c-a405-ee5c41f811c6",
+    "title": "Ornate Classical Domed Temple Pavilion",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "a387bc60-2bcb-4538-a611-46ac660a62ff",
+    "title": "Ornate Classical Garden Gazebo Pavilion",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "ccb92fae-c6dc-4eae-a912-0a2df5eb058e",
+    "title": "Ornate Classical Garden Gazebo with Climbing Flowers",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "ea6654de-2d75-4084-a93a-b854af2b9a77",
+    "title": "Ornate Classical Stone Gazebo Pavilion",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "f9d520e3-4770-4507-8b7b-ade3ca5cc6fc",
+    "title": "Ornate Fantasy Medieval Gazebo Pavilion",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "d25a7856-120c-4bc2-a5d8-f07dad93873f",
+    "title": "Ornate Neoclassical Marble Gazebo",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "11d51cac-f1a0-41ce-a38b-5c632c5649e3",
+    "title": "Ornate Victorian Storybook House",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "93503bf1-53c2-4016-8ce9-f40986fa63a6",
+    "title": "Quaint Miniature Green Garden Shed",
+    "kind": "building",
+    "size": 9
+  },
+  {
     "id": "7972e6ef-eb76-4a32-82a4-0cdd8fbf530e",
     "title": "Realistic House Mouse",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "96937e6e-6756-4271-ab73-fd7fcd2971c0",
+    "title": "Rustic Fantasy Thatched Cottage",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "0e420bcf-113c-48f8-85ed-09542093c8bc",
+    "title": "Rustic Half-Timbered Fantasy Cottage",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "e40986bc-9580-455d-b1fa-44b6eb352143",
+    "title": "Rustic Log Cabin Cottage",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "0823576e-7984-4d6d-a18a-c9c8a9e4cd01",
+    "title": "Rustic Thatched Roof Cottage",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "66facaf2-c605-4d09-b907-fca5fb079aa1",
+    "title": "Rustic Thatched Stilt House Hut",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "4228dacd-a71b-4e77-b91a-a81e4aa16e8a",
+    "title": "Rustic Two-Story Log Cabin Cottage",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "12a4f1d0-86ff-42e2-84e0-8839902f2f9c",
+    "title": "Rustic Wooden Bench",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "318d0d93-0ce6-485d-9499-947a61628c40",
+    "title": "Rustic Wooden Cabin",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "438a3813-6ffc-4a59-b5c2-75976f957d41",
+    "title": "Rustic Wooden Chair with Carved Details",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "aaae03fe-efbe-46bc-8918-5e8fec55c01d",
+    "title": "Rustic Wooden Garden Bench",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "d1b3a737-2535-4c82-a92e-676ab2af5745",
+    "title": "Rustic Wooden Park Bench",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "64140ff5-5b39-4c01-915b-5deb8da6f38a",
+    "title": "Small Rustic Wooden Cabin",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "7b02e176-679b-4036-ba47-b9b8336ce6bf",
+    "title": "Stained Glass Fantasy Gazebo Pavilion",
     "kind": "building",
     "size": 9
   },
@@ -2154,14 +336,80 @@
     "size": 9
   },
   {
-    "id": "dce815d5-732d-468c-ae0f-f2be53634b80",
-    "title": "Gothic Revival Ornate Garden Gazebo",
+    "id": "19643544-5c3e-4c63-a3c3-f2b5b7d94a12",
+    "title": "Stylized Fantasy Storybook Cottage",
     "kind": "building",
     "size": 9
   },
   {
-    "id": "0e420bcf-113c-48f8-85ed-09542093c8bc",
-    "title": "Rustic Half-Timbered Fantasy Cottage",
+    "id": "62b441bc-2eca-4468-a2f1-32fa20e1972f",
+    "title": "Stylized Low-Poly Mountain Cabin",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "151f76b0-2ea5-4887-8102-8dfbb3457d14",
+    "title": "Stylized Medieval Fantasy Cottage",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "54698161-6214-423a-9b8e-4d6b21d0d765",
+    "title": "Stylized Traditional Asian Garden Shop",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "9ff47f6e-6988-4c5b-9b9a-5fa2c71b3afa",
+    "title": "Stylized Tudor Fantasy Cottage",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "556ba4b4-b438-402b-99ce-7585f68bf86e",
+    "title": "Stylized Wooden Picket Fence",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "7958fd0b-dac9-4b72-9fab-79eaa30fd401",
+    "title": "Stylized Zen Meditation Pavilion",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "752bb2da-df56-4308-99e4-5eddb4a4ace9",
+    "title": "Traditional Chinese Garden Pavilion",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "7da49572-f44a-4a7d-a0d1-117a3c2e2458",
+    "title": "Traditional Chinese Pavilion with Tiered Teal Roof",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "acc10fb1-3607-4f1e-bd1c-5a044099a4ba",
+    "title": "Traditional East Asian Inn with Tiled Roof",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "a2fbf97d-d87f-4214-9aee-6a9e177b33ce",
+    "title": "Traditional Japanese Thatched Roof House",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "ed79796c-c10c-42f0-abd0-6c7f9925e89a",
+    "title": "Traditional Oriental Wooden Pavilion",
+    "kind": "building",
+    "size": 9
+  },
+  {
+    "id": "108c7dd8-6d95-4f8b-b1dd-5ad27118cecc",
+    "title": "Two-Story Alpine Stone & Timber Chalet",
     "kind": "building",
     "size": 9
   },
@@ -2172,118 +420,370 @@
     "size": 9
   },
   {
-    "id": "6cc86aa1-cadd-4a7e-b5ea-feb16155a485",
-    "title": "Fantasy Fairytale Cottage House",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "2610aee1-73d7-4d81-81b8-d2e287f079d9",
-    "title": "Stylized Oak Tree with Painterly Foliage",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "62bacda2-af89-4680-9145-89ca6a6a85bd",
-    "title": "Stylized Cartoon Tree with Exposed Roots",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "2fd72e49-895b-4cd2-8b46-985106d724ae",
-    "title": "Fantasy Storybook Cottage with Foliage",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "314f7d9b-e9db-4b20-9330-debd490975de",
-    "title": "Fantasy Storybook Cottage House",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "c07270a2-41cd-402a-87d1-4abc336f4784",
-    "title": "Ornate Two-Tier Stone Garden Fountain",
-    "kind": "fountain",
-    "size": 4.5
-  },
-  {
-    "id": "11d51cac-f1a0-41ce-a38b-5c632c5649e3",
-    "title": "Ornate Victorian Storybook House",
-    "kind": "building",
-    "size": 9
-  },
-  {
-    "id": "e40986bc-9580-455d-b1fa-44b6eb352143",
-    "title": "Rustic Log Cabin Cottage",
-    "kind": "building",
-    "size": 9
-  },
-  {
     "id": "3cdbf9a3-71d3-4159-a3a6-d7fa31bbd641",
     "title": "Whimsical Fairy Tale Cottage with Tower",
     "kind": "building",
     "size": 13
   },
   {
-    "id": "151f76b0-2ea5-4887-8102-8dfbb3457d14",
-    "title": "Stylized Medieval Fantasy Cottage",
+    "id": "9759e88d-42ab-48be-b92b-e8b149b1e701",
+    "title": "Whimsical Fantasy Fairy Tale Cottage",
     "kind": "building",
     "size": 9
   },
   {
-    "id": "07723f7f-5845-43cd-9033-b7fd3585a2a0",
-    "title": "Fantasy Half-Timbered Cottage with Moss",
+    "id": "006930b8-3935-46ad-8f83-9bfa16534bcf",
+    "title": "Whimsical Fantasy Storybook Cottage",
     "kind": "building",
     "size": 9
   },
   {
-    "id": "4cd860e2-acb5-4303-9354-c5f60fa6ea90",
-    "title": "Stylized Cartoon Fairy Character",
-    "kind": "npc",
-    "size": 1.85
-  },
-  {
-    "id": "458c62d3-cf94-49dc-a117-6fde58d6102e",
-    "title": "Realistic Pile of Acorns",
-    "kind": "tree",
-    "size": 6
-  },
-  {
-    "id": "19643544-5c3e-4c63-a3c3-f2b5b7d94a12",
-    "title": "Stylized Fantasy Storybook Cottage",
+    "id": "64a90530-a90b-44b8-8676-050edbcf79c1",
+    "title": "Whimsical Storybook Cottage House",
     "kind": "building",
     "size": 9
   },
   {
-    "id": "9e619799-0aca-4343-849c-59d23434364a",
-    "title": "Stylized Pine Tree",
-    "kind": "tree",
-    "size": 6
+    "id": "89018486-faf4-47a4-9e48-b675fc55b4db",
+    "title": "Ornate Vintage Rickshaw / Trishaw",
+    "kind": "cart",
+    "size": 3
   },
   {
-    "id": "420a80f9-28c1-426f-b36c-a199d5af829b",
-    "title": "Stylized Wooden Paw Print Signpost",
-    "kind": "signpost",
-    "size": 1.6
+    "id": "5860729a-a063-4b88-b170-b60bb9e8f2f8",
+    "title": "Rustic Wooden Wheelbarrow Planter with Flowers",
+    "kind": "cart",
+    "size": 3
   },
   {
-    "id": "d1b3a737-2535-4c82-a92e-676ab2af5745",
-    "title": "Rustic Wooden Park Bench",
-    "kind": "building",
-    "size": 9
+    "id": "54504633-89a0-4e20-9e17-0407165a48e8",
+    "title": "Vintage Wooden Garden Cart Planter with Flowers",
+    "kind": "cart",
+    "size": 3
   },
   {
-    "id": "459febbe-d6dc-49cf-839a-c1db03aa7296",
-    "title": null,
-    "kind": "bridge",
-    "size": 6
+    "id": "26aeb336-bc5b-4fe3-b46b-2c90428a0e96",
+    "title": "Rustic Covered Wooden Crate – Medieval Fantasy Prop",
+    "kind": "crate",
+    "size": 1.2
   },
   {
-    "id": "8530834b-f475-47b4-b397-05ca7efdd83f",
-    "title": "Rustic Wooden Rowboat",
-    "kind": "boat",
-    "size": 4
+    "id": "da46c157-d3d6-4d39-a65d-97cb65cf955e",
+    "title": "Rustic Industrial Wheeled Wooden Crate",
+    "kind": "crate",
+    "size": 1.2
+  },
+  {
+    "id": "f78342a6-bb88-4580-99ed-42fcca0a29fb",
+    "title": "Stylized Wooden Planter Box",
+    "kind": "crate",
+    "size": 1.2
+  },
+  {
+    "id": "2f71e53b-30d3-4736-a72f-dceede279f25",
+    "title": "Stylized Wooden Planter Crate",
+    "kind": "crate",
+    "size": 1.2
+  },
+  {
+    "id": "fed74772-7418-4355-a9cd-8af9b27ea5bc",
+    "title": "Stylized Wooden Shed with Paneled Doors",
+    "kind": "crate",
+    "size": 1.2
+  },
+  {
+    "id": "05b470d3-f8c5-4a5e-8426-2ff1121b6b34",
+    "title": "",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "34a23d0b-c2ca-4c35-bc59-d4e17531d386",
+    "title": "",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "3859b34d-a765-4fd0-ad77-91b6bd724c1c",
+    "title": "",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "668e2ff1-03aa-433c-9c26-31d7f82e47dd",
+    "title": "",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "8e60c582-bd43-4648-a8cf-86a3f7f0b798",
+    "title": "",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "98adc550-404a-41a2-9db7-62275d6fee90",
+    "title": "",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "b954c4fc-7a1a-4303-a2b3-31ddc7be1686",
+    "title": "",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "2851de66-0619-47a7-aa49-6663d483fd66",
+    "title": "Anthropomorphic Wolf Warrior in Leather Armor",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "006caf47-3028-4dc9-9d89-6736aaf5bf2d",
+    "title": "Basset Hound",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "1dab067f-3db5-493a-adf0-56a9809f0b05",
+    "title": "Black and White Spaniel Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "dfd4407a-67a6-4a87-96a8-14b14767d5dd",
+    "title": "Cartoon Wheeled Animal Toy Character",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "33a98158-c289-424a-9ab4-dd7692997ed7",
+    "title": "Dark Fantasy Dragon Creature with Magenta Wings",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "d63f9538-372a-498e-9936-2e8f9b59e580",
+    "title": "Dark Magenta Fantasy Dragon Creature",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "10b72cc6-d3c4-4e8b-b2cb-d7f9aad6e0e4",
+    "title": "Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "2671cbf1-450d-49f5-8488-6790194dc49f",
+    "title": "Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "57de1155-fea2-4252-abcb-95d7be92586e",
+    "title": "Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "6a76f0a7-1278-49fe-bb10-8aac879ad751",
+    "title": "Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "657549b0-a40e-44e4-9b8f-19786721fe59",
+    "title": "Emerald Dragon Emperor Fantasy Character",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "bc696b44-a6c3-49fd-91dc-af6cfb224a67",
+    "title": "English Bulldog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "4e0a8f25-8665-4bdc-b9c0-2efff2767e45",
+    "title": "German Shepherd",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "c5f40ab5-0c21-4b7e-80d8-e881a2481f8d",
+    "title": "Photorealistic Boston Terrier Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "023edf66-85a1-44f0-90a1-01f23e1891b2",
+    "title": "Photorealistic White Swan",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "672a5a69-78b2-4bc5-965a-2385b28e5c03",
+    "title": "Realistic Bloodhound Dog Model",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "9c92a1ff-74ec-4fc4-b45f-b19b3f627de0",
+    "title": "Realistic Staffordshire Bull Terrier Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "5d87dc9c-facb-417e-8936-91fc60cdb225",
+    "title": "Realistic White Swan",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "c187e0e9-8077-48ca-bd5d-d19eba8afee5",
+    "title": "Red-Winged Black Dragon Creature",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "2bb3e4fc-4cf0-4643-95b9-5abfae8f5067",
+    "title": "Sci-Fi Cyborg Papillon Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "3ac3c9de-5e64-4fe9-b376-1c796d173937",
+    "title": "Steampunk Brass Robotic Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "0ce82390-37ba-4695-9ddc-c5082899c957",
+    "title": "Steampunk Mechanical Bernese Mountain Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "744ae022-125c-4ec8-84b6-4a4ca5e3866e",
+    "title": "Steampunk Robotic Corgi",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "2a07f9dc-08b7-4c11-8e99-6a507aed7d35",
+    "title": "Steampunk Robotic Pug",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "790ea2e6-b028-4d52-9b33-99c366bd2968",
+    "title": "Stylized Black & White Puppy",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "c0bb24fd-7d2c-4aab-a1aa-a71c2dd7b4d2",
+    "title": "Stylized Black and Tan Dog Character",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "a8734e11-5e22-45e3-a7ed-ae6d48a9b712",
+    "title": "Stylized Brown Retriever Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "c2789308-5350-478c-aed7-50bb32b369f6",
+    "title": "Stylized Cartoon Dog Character",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "58c86f30-4b3d-4546-ac96-ac067d9a20b2",
+    "title": "Stylized Carved Wooden Dog Sculpture",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "7a0a8737-4399-49af-860b-ac84ebac6c01",
+    "title": "Stylized Cocker Spaniel Dog Sculpture",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "9e12d99a-365d-4d91-8930-aa51f8462a81",
+    "title": "Stylized Fantasy Griffin Winged Lion Creature",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "7ea370fa-55b7-4e1f-88e1-b599c5c61c93",
+    "title": "Stylized Fantasy Wyvern Dragon Creature",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "39b52998-aea2-4bbe-9e39-04dd08fca7d9",
+    "title": "Stylized Robotic Cavalier King Charles Spaniel",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "00f70612-a5da-47f9-8608-0ee51f43033e",
+    "title": "Stylized Shetland Sheepdog (Sheltie)",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "4ac58f7c-0c06-4fa1-a6b3-3601c8b6d810",
+    "title": "Stylized Shih Tzu Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "a2602dd9-a359-46af-aa06-e4c53571b99d",
+    "title": "Stylized West Highland White Terrier Dog",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "daca7ed3-e651-45b6-9956-a353517500ac",
+    "title": "Stylized White Bull Terrier Dog Character",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "766486ec-a5c8-465c-af9b-43cc95371bab",
+    "title": "Stylized White Puppy Dog Figurine",
+    "kind": "creature",
+    "size": 1.5
+  },
+  {
+    "id": "38d2df65-7478-4ac1-aed4-ef5870e929c3",
+    "title": "Classical Garden Fountain Pavilion with Statues and Flowers",
+    "kind": "fountain",
+    "size": 4.5
+  },
+  {
+    "id": "fe19c3d8-8576-41cc-9b6c-dbdf1b24bc9f",
+    "title": "Classical Two-Tiered Stone Garden Fountain",
+    "kind": "fountain",
+    "size": 4.5
+  },
+  {
+    "id": "054b49ce-d646-4fc7-9a79-a33bb172ef79",
+    "title": "Ornate Garden Fountain with Floral Archway",
+    "kind": "fountain",
+    "size": 4.5
+  },
+  {
+    "id": "c07270a2-41cd-402a-87d1-4abc336f4784",
+    "title": "Ornate Two-Tier Stone Garden Fountain",
+    "kind": "fountain",
+    "size": 4.5
   },
   {
     "id": "bd8362f3-4ac1-4581-8c21-5545c595e6ba",
@@ -2298,62 +798,200 @@
     "size": 4.5
   },
   {
-    "id": "44d1d8b1-f18e-4a4b-a51d-13332d8ebcf2",
-    "title": "Stylized Wooden Footbridge with Stone Supports",
-    "kind": "bridge",
-    "size": 6
+    "id": "cc620e74-3e23-4359-b116-64c3beb94b57",
+    "title": "Stylized Fantasy Cottage with Garden",
+    "kind": "fountain",
+    "size": 4.5
   },
   {
-    "id": "8ca9f659-2764-4795-a0ea-546bf3c3427a",
-    "title": "Stylized Wooden Garden Bridge with Stone Supports",
-    "kind": "bridge",
-    "size": 6
+    "id": "35875d9a-5483-48c5-aaa2-7a8f5666a7b9",
+    "title": "Two-Tier Stone Garden Fountain",
+    "kind": "fountain",
+    "size": 4.5
   },
   {
-    "id": "75a7cefd-25d9-4c31-a49a-40f3a8b81fc5",
-    "title": "Stylized Fantasy Magic Tree",
-    "kind": "tree",
-    "size": 6
+    "id": "f6ad4b28-273c-4b19-92a3-f538412023aa",
+    "title": "Ancient Mossy Stone Archway Ruin",
+    "kind": "gate",
+    "size": 5
   },
   {
-    "id": "068ef750-51ea-4f01-ac32-188130862615",
-    "title": "Enchanted Blue Crystal Fantasy Tree",
-    "kind": "tree",
-    "size": 6
+    "id": "364ad39b-ff16-44df-bd3c-3471cb88123e",
+    "title": "Classical Stone Archway Portal",
+    "kind": "gate",
+    "size": 5
   },
   {
-    "id": "98de0118-914a-47ab-8aa8-781a83ece083",
-    "title": "Stylized Low-Poly Wooden Signpost Prop",
-    "kind": "signpost",
-    "size": 1.6
+    "id": "e8342fd3-466d-4be5-bce2-4542513c083f",
+    "title": "Classical Stone Floral Archway",
+    "kind": "gate",
+    "size": 5
   },
   {
-    "id": "1c093827-3735-4ed0-b435-8499918ad752",
-    "title": "Stylized Multi-Tier Pagoda Lantern Tower",
-    "kind": "lantern",
-    "size": 1.3
+    "id": "67680209-3749-479b-b9b8-744b890d9812",
+    "title": "Dark Fantasy Magic Portal Gateway",
+    "kind": "gate",
+    "size": 5
   },
   {
-    "id": "317d1479-df0a-4c94-992b-2300cf963e8c",
-    "title": "Stylized Crescent Moon Lantern",
-    "kind": "lantern",
-    "size": 1.3
+    "id": "478da5c2-37b4-47a9-8f21-82588281b1b2",
+    "title": "Fantasy Magic Portal Gateway",
+    "kind": "gate",
+    "size": 5
   },
   {
-    "id": "ab419565-0d3e-4e39-975c-e05631dd71da",
-    "title": "Stylized Hot Air Balloon with Basket",
-    "kind": "balloon",
-    "size": 3
+    "id": "2987ca78-80cb-4f21-8e35-202be210bdd2",
+    "title": "Fantasy Stone Portal Gateway",
+    "kind": "gate",
+    "size": 5
   },
   {
-    "id": "318d0d93-0ce6-485d-9499-947a61628c40",
-    "title": "Rustic Wooden Cabin",
-    "kind": "building",
-    "size": 9
+    "id": "7f7ba0e4-c33e-4c32-b3aa-4c69a181b955",
+    "title": "Neoclassical Floral Garden Archway",
+    "kind": "gate",
+    "size": 5
+  },
+  {
+    "id": "2804ac8a-e2c9-49fb-a1b4-643158b9168d",
+    "title": "Overgrown Stone Ruin Archway",
+    "kind": "gate",
+    "size": 5
+  },
+  {
+    "id": "f6353e0c-5e53-49c0-ae21-244a6a913d00",
+    "title": "Romantic Stone Garden Archway with Red Flowers",
+    "kind": "gate",
+    "size": 5
+  },
+  {
+    "id": "028684c5-3e50-40b1-922a-53169dded744",
+    "title": "Traditional Japanese Shinto Shrine",
+    "kind": "gate",
+    "size": 5
+  },
+  {
+    "id": "121c652e-e16f-4cba-add0-1b99ef1d7b9f",
+    "title": "Traditional Japanese Shrine Building",
+    "kind": "gate",
+    "size": 5
+  },
+  {
+    "id": "dff23105-3fd7-4ffb-b9c3-c6499b664690",
+    "title": "Traditional Korean Gatehouse with Stone Foundation",
+    "kind": "gate",
+    "size": 5
+  },
+  {
+    "id": "02fd8eaf-6bd6-4f21-9862-a32c1097e871",
+    "title": "Appaloosa Horse with Western Tack",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "9e149b24-2abc-41a2-83f8-38dddaa8b8c3",
+    "title": "Chestnut Horse with Leather Tack",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "e1f73751-40c7-4095-a32e-3558c8569767",
+    "title": "Clydesdale Draft Horse with Saddle and Pack",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "e5790c52-eb45-4510-9de1-5c1b4ccd4612",
+    "title": "Pinto Horse with Western Saddle and Tack",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "ba2a9193-9678-483f-a65c-64ae8e22b7cc",
+    "title": "Realistic Friesian Horse with Saddle and Bridle",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "d9f2e0e2-68b5-4a52-aa49-385d418848a8",
+    "title": "Realistic Saddled Draft Horse - Dappled Grey",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "3ba4713c-df01-4deb-9b7e-66c84a8a4238",
+    "title": "Realistic Saddled Zebra",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "9945cbc9-c8a4-44b8-bb01-607fadb63c39",
+    "title": "Saddled Dun Riding Horse",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "7e30ddb9-7f0f-45df-81ac-438690be878e",
+    "title": "Stylized Black Horse with Silver Mane and Tack",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "1ab7f56d-48cb-4c58-bdd2-55af45365e35",
+    "title": "Stylized Draft Horse Figurine with Ornate Tack",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "09eabb3e-2c95-4361-81f1-c9f19dfd3903",
+    "title": "Stylized Palomino Horse with Riding Tack",
+    "kind": "horse",
+    "size": 2.5
+  },
+  {
+    "id": "01b0b0da-5a4a-41b2-9df3-b581f3625a51",
+    "title": "White Horse with Ornate Saddle and Tack",
+    "kind": "horse",
+    "size": 2.5
   },
   {
     "id": "e9c6fe5e-cf9a-4fc4-a4a0-83c3db0caf59",
     "title": "Ancient Egyptian Stone Obelisk Monument",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "2b3f059e-5bb4-4629-b7e2-5f8ddcd23bfe",
+    "title": "Ancient Mesoamerican Olmec Head Sculpture",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "5b66cb73-5b33-4732-8df8-0658c345f9ff",
+    "title": "Ancient Mesoamerican Stone Head Sculpture",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "e5fe3471-c8b2-4188-a2ed-2a73126e4927",
+    "title": "Ancient Rune Stone Marker in Sand",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "85c5c1cd-cdd1-441c-94fe-41ca4ea003f5",
+    "title": "Ancient Runic Stone Marker — Weathered Mossy Monument",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "29716cc7-c92d-40e2-ac87-f175f5cc466a",
+    "title": "Ancient Stone Stele with Hieroglyphic Carvings",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "7fde77d5-7c1e-44b4-a480-385efc2749d5",
+    "title": "Ancient Stone Tiki Totem with Runic Carvings",
     "kind": "landmark",
     "size": 5
   },
@@ -2364,9 +1002,1371 @@
     "size": 5
   },
   {
-    "id": "978e10e9-cd01-4eb4-ae46-fd7e31e8db2e",
-    "title": "Stylized Wooden Rowboat",
-    "kind": "boat",
+    "id": "8d989a1d-092b-4e69-810d-240083fc251d",
+    "title": "Classical Ornate Stone Pedestal Plinth",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "d188b723-d416-4435-bc1e-bf6b131ff934",
+    "title": "Classical White Sculptural Pedestal",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "26826046-2c5d-497d-85dd-d4ba135dfe33",
+    "title": "Medieval Queen Carved Stone Sculpture",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "7c931a2c-8e92-4d4f-9c1d-8910c0d99a13",
+    "title": "Medieval Seated King Statue",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "f0105918-03e4-4dae-b409-e93fd7a815a8",
+    "title": "Minimalist Stone Buddha Meditation Statue",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "425e99eb-e1ce-497e-b339-945d5e422dbb",
+    "title": "Minimalist Stone Pedestal Base",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "ce388576-4507-44cf-9aee-a4cc6a344f6e",
+    "title": "Moai Stone Head Statue",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "858eb6c2-bfbe-44fe-ba2f-2086537ff7a2",
+    "title": "Neoclassical Stone Pedestal Plinth",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "8d478e54-d426-4113-8f42-39f8fcfe1979",
+    "title": "Ornamental White Stone Pedestal",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "97c38af4-c9eb-4b0f-b5df-1c34b8507018",
+    "title": "Rustic Sandstone Gravestone Monument",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "db1362ba-b5c2-44ab-9728-e45dd4777329",
+    "title": "Smooth Stone Meditation Buddha Statue",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "e1d4140c-896d-4e2a-b65b-e0658c6681af",
+    "title": "Stylized Seated King Stone Figurine",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "83ce1eef-d883-404a-bde8-e94c5a91cfa8",
+    "title": "Weathered Driftwood Spiral Sculpture",
+    "kind": "landmark",
+    "size": 5
+  },
+  {
+    "id": "913a4c71-413f-41e8-9522-b5faf907097c",
+    "title": "Ancient Stone Garden Lantern",
+    "kind": "lantern",
+    "size": 1.3
+  },
+  {
+    "id": "d84595a9-6a57-4e31-b504-aadbfef80ded",
+    "title": "Japanese Stone Garden Lantern Tōrō",
+    "kind": "lantern",
+    "size": 1.3
+  },
+  {
+    "id": "317d1479-df0a-4c94-992b-2300cf963e8c",
+    "title": "Stylized Crescent Moon Lantern",
+    "kind": "lantern",
+    "size": 1.3
+  },
+  {
+    "id": "182cf9b1-d1ee-4081-a8da-4c35c466d1f8",
+    "title": "Stylized Japanese Onsen Hot Spring Scene",
+    "kind": "lantern",
+    "size": 1.3
+  },
+  {
+    "id": "1c093827-3735-4ed0-b435-8499918ad752",
+    "title": "Stylized Multi-Tier Pagoda Lantern Tower",
+    "kind": "lantern",
+    "size": 1.3
+  },
+  {
+    "id": "e1bb9055-1a8a-4250-8a86-84918f3e28ac",
+    "title": "Traditional Asian Wooden Lantern Post",
+    "kind": "lantern",
+    "size": 1.3
+  },
+  {
+    "id": "58e7e768-ea0d-4c84-9304-17dbfe13e541",
+    "title": "Traditional Japanese Garden Lantern",
+    "kind": "lantern",
+    "size": 1.3
+  },
+  {
+    "id": "45e43b9e-b450-462d-a552-3a217525d6da",
+    "title": "Traditional Japanese Stone Lantern",
+    "kind": "lantern",
+    "size": 1.3
+  },
+  {
+    "id": "4e05cef7-1473-461b-bc2f-df4726a14edc",
+    "title": "Traditional Japanese Stone Lantern (Toro)",
+    "kind": "lantern",
+    "size": 1.3
+  },
+  {
+    "id": "6ac277c2-1374-4a33-9d54-6e8da950fda1",
+    "title": "Ancient Egyptian Pharaoh Figure",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "b246a71e-dc2f-4803-86ca-9080e9f9eff8",
+    "title": "Ancient Stone Circle Platform with Runes",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "0b5bbff2-caea-45a3-9072-6fae18417ef6",
+    "title": "Antlered Forest King Fantasy Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "4e337416-15b8-4217-b5c1-cc7419ea17c2",
+    "title": "Azure Jade Empress — Stylized Fantasy Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "49634a3f-4468-47ce-b219-d231fe344a11",
+    "title": "Azure Sentinel — Futuristic Sci-Fi Humanoid Robot",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "100eecb0-f300-4661-b069-d3115dcb00d7",
+    "title": "Classical Greek Goddess in Draped Tunic",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "7e828606-9de1-40e6-8273-8c1322875e56",
+    "title": "Emperor of Olympus - Mythological God Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "c0555ced-d5ba-4f72-86e5-dfcf20a5dad1",
+    "title": "Fantasy Male Elf Adventurer",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "3f478ad7-592f-4c5b-8ba4-b4a5f32c6cf7",
+    "title": "Fantasy Priestess Character with Celestial Robe",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "3228b348-b41e-459b-a7f1-df26849851cc",
+    "title": "Female Elf Fantasy Warrior Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "9f320e93-3c7f-4eca-9860-1f355d781079",
+    "title": "Female Fantasy Archer Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "9dd82a53-795d-41e1-9402-047cd39b256c",
+    "title": "Female Fantasy Warrior in Dark Armored Gear",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "56d3226d-95dc-44b8-886b-4beb663890ef",
+    "title": "Frostborne Warlord – Fantasy Knight Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "124c72bf-0b75-4c4f-ba2b-cbe26523b2ff",
+    "title": "Frostbound Queen - Fantasy Royal Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "c15e0f59-2784-4a02-bbb5-6ab0d31cc79c",
+    "title": "Golden Athena Greek Goddess Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "c0e034df-1990-4aed-a78d-20a4febffd0b",
+    "title": "Golden Dawn Valkyrie - Fantasy Female Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "5e33b902-f547-482f-90f2-0060232ec39f",
+    "title": "Golden Leopard King - Ancient Egyptian Fantasy Warrior",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "e0cfc867-e6c7-4db8-a98c-284caa0e22da",
+    "title": "Gothic Nobleman Character - Victorian Aristocrat Avatar",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "cb614ff6-0cc6-4863-810d-82eed602a596",
+    "title": "Greek Demigod Hero – Stylized Fantasy Warrior",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "e388ef4b-0d25-4cca-ba31-daaff3cd69d5",
+    "title": "Greek Goddess Statue - Mythological Female Figure",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "3d6409ff-193e-4155-a197-e91a8eefe790",
+    "title": "Heartcore Android — Stylized Female Robot Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "d1c9554e-ca78-4a6d-a4e8-313067011145",
+    "title": "Moonlit Celestial Mage - Stylized Fantasy Female Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "0529178a-1ee1-4840-ab50-70c320f63392",
+    "title": "Native American Warrior Chief with Feathered Headdress",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "606ac51c-4deb-4f60-a263-c014b7b9d355",
+    "title": "Ornate Bronze Empress Statue",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "12211847-aadc-44f1-9a31-d32448f786b8",
+    "title": "Painterly Stylized Female Character in Red Dress",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "9c6229a8-2177-4f51-ac09-5c476f0b5da5",
+    "title": "Petrified Dark Fantasy Knight",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "6c2e7e3d-0eab-48ab-a67a-10f2f377a531",
+    "title": "Radiant Valkyrie Female Superhero",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "89591d00-1281-4166-873c-20856eddbf3a",
+    "title": "Retro Pin-Up Girl Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "0c777a2c-b861-4a76-ae88-dd1a81794269",
+    "title": "Roman Centurion Warrior Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "c5c5a7f4-3bd3-4d77-9719-2af8241504e1",
+    "title": "Solar Empress – Stylized Fantasy Heroine",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "54c2b645-660a-4a5d-937a-3e01756d7d07",
+    "title": "Stylized Alice in Wonderland Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "8ccc495c-40f0-4312-a01c-256a874b5897",
+    "title": "Stylized Anime Fantasy Female Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "e26778c3-f75c-407c-b528-0008dc16453a",
+    "title": "Stylized Aztec Warrior Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "4cd860e2-acb5-4303-9354-c5f60fa6ea90",
+    "title": "Stylized Cartoon Fairy Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "584589a6-0623-4a29-8a36-25031f9c958e",
+    "title": "Stylized Egyptian Goddess Hathor Figurine",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "8235a238-5be2-4a11-b730-58074c14ae15",
+    "title": "Stylized Fantasy Anime Female Character with Star Cape",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "75be3aea-4e9f-4e37-90b7-02ac4a0b2294",
+    "title": "Stylized Fantasy Elf Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "6833b1ac-06d5-4566-8e1e-d0448b48fb0d",
+    "title": "Stylized Fantasy Female Character in Green Cloak",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "8ca01eca-0786-4750-af81-3657a6409acc",
+    "title": "Stylized Fantasy Female Character in Red Dress",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "fbf106c2-7ba0-42c1-bf6b-238f229d24e6",
+    "title": "Stylized Fantasy Goddess Statue",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "19045dd8-490e-4cd5-b383-6206e37ec008",
+    "title": "Stylized Fantasy Pharaoh Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "2179f496-f5c0-41e5-8714-e1881fdbfb6b",
+    "title": "Stylized Female Android — White Sci-Fi Robot Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "f5e04f52-71fc-4bbd-93ec-dedc1a69e246",
+    "title": "Stylized Golden Empress Fantasy Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "63a91d04-ad04-40e2-87ca-890e5a17ceeb",
+    "title": "Stylized Low-Poly Wizard with Spellbook",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "f66b2461-a521-4db5-a7eb-540a9577d856",
+    "title": "Stylized Monochrome Male Head Bust",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "d8a6bd64-000c-4dd2-8db6-fd7cdae2d3a7",
+    "title": "Stylized Stone Viking Warrior Statue",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "d04c462a-2693-4db5-99dd-ca92b1561d95",
+    "title": "Stylized VRM Character Avatar",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "b0d675da-221e-4046-860c-2e584118df9e",
+    "title": "Verdant Empress Fantasy Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "65c442ea-1ab1-4f16-a55c-ced1f856ee21",
+    "title": "Verdant Guardian Female Druid Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "18089998-667e-4d3c-a370-f0610fa05de0",
+    "title": "VRM Character Avatar",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "48b7b290-08d7-45c5-87ab-9ee8aaec1c00",
+    "title": "VRM Character Avatar Model",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "e7fbbae2-2bb2-432e-a389-963a63225bc9",
+    "title": "VRM Humanoid Avatar Character Model",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "a4e13eb7-3c85-4791-848f-0e923eedcb01",
+    "title": "White Female Android Robot Character",
+    "kind": "npc",
+    "size": 1.85
+  },
+  {
+    "id": "208a7173-ae97-4086-9e09-a45c9dd6acc4",
+    "title": "",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "2801453d-2df2-4330-a598-6881f2ff3b2a",
+    "title": "",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "7b28249d-4eba-4215-9cd1-19a467d13186",
+    "title": "",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "9247e500-6c73-4b06-a287-8dd9da4c1cf6",
+    "title": "",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "bfb308a7-2356-4c24-851c-d00774aab87c",
+    "title": "",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "c22980df-b7e7-47b5-b79c-72e34fdaf67d",
+    "title": "Blueberry",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "de85712e-4618-46d4-a179-4738251aa3ea",
+    "title": "Cartoon Pumpkin Plant with Vine, Leaves & Flower",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "2b64b91a-cc16-4b03-afef-7f09cbf3a0cc",
+    "title": "Fern",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "344ec31e-c99d-4644-b495-36de017d6f2b",
+    "title": "Photorealistic Banana Plant",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "124d6b49-4d5e-4b05-bc81-848ef6f7377a",
+    "title": "Photorealistic Green Leaf Sprig Cluster",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "e3947f4d-ef06-4572-b1aa-4318cee91e6d",
+    "title": "Realistic Protea Flower with Leaves",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "3e9db25d-7f87-4289-a951-37cedd42f45c",
+    "title": "Realistic Wooden Garden Planter Box with Mixed Flowers",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "c3d22232-20e3-4a6d-b4da-1f0e88b52aba",
+    "title": "Rustic Wooden Garden Planter Box with Rose Bush",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "f7851ca8-3b79-4450-88c8-b2208991200c",
+    "title": "Stylized Aloe Vera Succulent Plant",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "dcb03206-242a-4998-8451-522a35d9a952",
+    "title": "Stylized Beet Cluster with Leafy Greens",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "b39c91b6-4a04-4cb8-9226-f47c5273e12d",
+    "title": "Stylized Bell Pepper Plant - Cartoon Garden Vegetable",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "b5a94b54-fab0-4adf-94a1-62f16e157411",
+    "title": "Stylized Berry Bush with Rocks",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "d73c8a9d-99a2-4166-82b2-2536a1adc2ea",
+    "title": "Stylized Berry Plant with Red Fruit",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "ccded334-d6da-4584-ab9a-985c81042dfa",
+    "title": "Stylized Black Pepper Plant",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "1df612f4-c31f-499e-bb21-2997f02ba8ac",
+    "title": "Stylized Blackberry Plant with Berries and Flowers",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "dd039e5f-139f-43f8-bdff-654901086e5d",
+    "title": "Stylized Blackcurrant Bush",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "eedf340d-6409-4dee-bb7c-fd9b0d7a4107",
+    "title": "Stylized Blueberry Bush",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "d6a7a669-fe2e-40ba-9045-56ef23c21af5",
+    "title": "Stylized Cabbage with Soil Base",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "04c399c9-1980-4c23-aba4-4d76b56b8129",
+    "title": "Stylized Cartoon Berry Bush with Rocks",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "dd2d70b7-480f-4176-ac02-b35fea34cb0e",
+    "title": "Stylized Cartoon Carrot Plants Cluster",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "ba720a9b-d793-4745-a449-9c8b7122ec77",
+    "title": "Stylized Cartoon Flower Cluster",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "51a23c1e-0255-4966-9907-a9d3fb8e6500",
+    "title": "Stylized Cartoon Flower in Soft Pastel Colors",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "ef2f6700-fc80-4473-a110-2987d186dd91",
+    "title": "Stylized Cartoon Flower Plant with Rocks",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "e47ded91-0080-4a3a-8647-eb4a7d339d24",
+    "title": "Stylized Cartoon Houseplant in Pot",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "60d25d04-d82b-45a4-a6b2-c75e7feabe2b",
+    "title": "Stylized Cartoon Pink Flower",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "fae8c823-0dc3-4c27-a5ce-a17631673191",
+    "title": "Stylized Cartoon Strawberry Plant",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "34b24cda-6c5f-454b-aea6-7fff1f8c45ac",
+    "title": "Stylized Cassava Plant",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "93e31e68-045a-409d-a570-4e3a1f071c7f",
+    "title": "Stylized Chili Pepper Plant",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "68811b16-4224-4305-896f-e938220fee08",
+    "title": "Stylized Colorful Wildflower Cluster",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "99904d45-7141-4859-a4c2-ec0abebc5d36",
+    "title": "Stylized Coral Pink Cartoon Flower",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "e7a4c50b-b2d8-4399-adf2-1c31c860e23a",
+    "title": "Stylized Corn Plant",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "5d520c76-db8d-4e4c-b4d0-a9b7c5404de7",
+    "title": "Stylized Daisy Cluster with Foliage and Rocks",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "8eec66ff-0a74-40d1-afe6-101893026cc2",
+    "title": "Stylized Fantasy Mushroom Cluster",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "cc222bcf-a4dc-4ec2-a9b0-d9db3cd767b3",
+    "title": "Stylized Fern Leaf Plant",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "a61f9a5c-71aa-49da-a281-313c3147b58e",
+    "title": "Stylized Flowering Herb Plant",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "38a88341-2031-4448-8970-ed8cf0554495",
+    "title": "Stylized Ginger Plant with Rhizome",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "a3cddce7-c886-43cf-9115-5a7d4ed8b129",
+    "title": "Stylized Golden Wheat Stalks with Rock Base",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "80b4a76f-27f4-4ba3-bb63-47c54f5995b9",
+    "title": "Stylized Green Fern Plant",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "6f9eda29-617f-464d-8cf5-2cbf8857ca8b",
+    "title": "Stylized Mullein Plant",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "80360b71-ea18-4ca6-943f-db5cb409b921",
+    "title": "Stylized Mushrooms on Mossy Log",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "47e8cdfd-2a6c-413f-8f8f-770b9a527644",
+    "title": "Stylized Onion Cluster with Green Stalks",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "d4756289-cc98-478f-a4c1-4b237d638d80",
+    "title": "Stylized Orange Cartoon Flower",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "225fda8d-a577-48c7-99e4-11e75ef2971b",
+    "title": "Stylized Orange Flowering Plant",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "0bfb596f-6ef6-47dc-b097-ad77d03884f3",
+    "title": "Stylized Pea Plant with Pods and Flowers",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "fe29d364-2a3d-4ac5-b1ad-fe58fa31c952",
+    "title": "Stylized Peach Flower Bloom",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "6baeb0bf-0096-41e8-9322-c3c16c591bb3",
+    "title": "Stylized Pink Daisy Flower Cluster with Soil Base",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "d6225db9-7f66-4c7e-ae32-24469ab9547f",
+    "title": "Stylized Pink Flowering Plant",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "6d06f0e3-dd62-4d49-a422-af83b2ced693",
+    "title": "Stylized Potato Plant with Tubers",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "33b643c0-fc27-424f-9b8b-bf76eecd3144",
+    "title": "Stylized Potted Orange Flower",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "fbe51846-992c-41e7-91a0-0c51ce5e7b09",
+    "title": "Stylized Purple & Blue Wildflower Cluster",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "a96b8505-dc3b-48a7-bf2f-0f4c89183cb9",
+    "title": "Stylized Purple Berry Bush",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "66696d8c-b4bd-4e85-b3c6-5e838af9f4ce",
+    "title": "Stylized Purple Flower Cluster with Leaves",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "5e8d6c4f-70cd-4107-a385-60ab19350b19",
+    "title": "Stylized Purple Flowering Plant with Stone Base",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "aa240a9c-ae03-4850-aea0-285e6ef6f035",
+    "title": "Stylized Red Berry Bush",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "7eb3d646-76d3-45a3-991e-010afe1fa6f8",
+    "title": "Stylized Red Berry Plant",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "6e0624e5-a48d-4477-a774-4c96f3cb5d3a",
+    "title": "Stylized Red Potted Flower",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "13669de5-5bd7-40d8-aa7b-6f220a6ca808",
+    "title": "Stylized Tomato Plant with Fruit",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "d6ed09e3-7494-456b-a1f4-4bb2b9e91fce",
+    "title": "Stylized Turmeric Plant with Flower and Roots",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "05cd6ec5-0517-4777-82ba-1bd7c0dc0a7a",
+    "title": "Stylized Watercolor Wildflower Cluster",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "b3766fc7-cfb0-456b-93cd-7e7e81d46a54",
+    "title": "Stylized White Daisy Flower Cluster",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "5564d686-9ba2-4e38-8a1d-d81b3a689937",
+    "title": "Stylized White Wildflower Plant with Soil Base",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "77fd8f3d-8506-4a8c-bdae-09dc8d0e9845",
+    "title": "Stylized Wildflower Cluster with Terrain Mound",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "ba4ba994-8574-4473-8bd5-3ab11b6bff6d",
+    "title": "Stylized Yellow Flower Plant",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "a84fdb26-dd27-42af-9dac-e3cc9bd186f2",
+    "title": "Stylized Yellow Fruit Plant",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "32f44f6e-d67b-4f88-a4d4-66145b5dec17",
+    "title": "Watercolor Pink Wildflower Cluster",
+    "kind": "plant",
+    "size": 1.2
+  },
+  {
+    "id": "8340982d-57ac-4e97-962f-de31cd89329c",
+    "title": "Art Nouveau Carved Fairy Double Doors",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "19679181-4c35-471a-b550-50d90faa25f8",
+    "title": "Classical Architectural Pediments & Ornamental Finials",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "0c94d15f-e2b8-429f-b0fc-88bda680da0b",
+    "title": "Classical Marble Garden Steps with Ornate Urns",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "283f3060-127f-47d4-a979-c554dc1deb52",
+    "title": "Classical Ornate Stone Pedestal Plinth",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "ae220f5b-7591-40b3-b90a-e304d544444c",
+    "title": "Gothic Ornate Stone Architectural Niche",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "b0799f9a-10b2-4d6e-8cca-69ca7ae38604",
+    "title": "Minimalist Stone Storage Chest",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "e12c9334-e2c2-4f4d-86a0-bf6e49be9ce8",
+    "title": "Minimalist Wooden Birdhouse",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "10997bf3-a8d7-4e7e-a7e2-003ab24798f7",
+    "title": "Neoclassical Stone Pedestal Sarcophagus",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "d8bd0c34-273c-4fb0-8b6f-ec6dca7314aa",
+    "title": "Neoclassical Stone Sarcophagus with Ornate Carved Details",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "5d5bdab5-746e-4747-87fb-8ff2de0a2da3",
+    "title": "Ornate Classical Pedestal Planter with Greenery",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "d8cfe7ef-e52c-439f-91a0-9f4c3f58a2d3",
+    "title": "Ornate Mediterranean Balcony with Terracotta Roof",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "45707971-b593-40d9-a993-267f8295d701",
+    "title": "Stylized Low-Poly Wooden Fence",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "1e572336-6f07-4304-a569-732d479a5482",
+    "title": "Stylized Low-Poly Wooden Fence Section",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "1212ad24-0e0e-4ecd-a962-2da54f9ae406",
+    "title": "Stylized Three-Rail Wooden Fence",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "16674ce8-5b58-47d1-858e-fddb0c6e770c",
+    "title": "Stylized Wooden Fence",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "14d17fd3-3de4-486a-b621-4ae26d36f52c",
+    "title": "Stylized Wooden Fence Panel",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "699f87a3-8264-436f-b039-045fbcb90fff",
+    "title": "Stylized Wooden Picket Fence",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "e4b873a7-0184-4240-9b3a-4ee75f51245d",
+    "title": "Stylized Wooden Picket Fence",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "fb02b6e8-f4e1-4bad-9286-73bcff128eb6",
+    "title": "Stylized Wooden Picket Fence Section",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "f965e023-695b-42ee-bc37-cb27137f81ed",
+    "title": "Stylized Wooden Picket Fence Segment",
+    "kind": "prop",
+    "size": 2
+  },
+  {
+    "id": "98de0118-914a-47ab-8aa8-781a83ece083",
+    "title": "Stylized Low-Poly Wooden Signpost Prop",
+    "kind": "signpost",
+    "size": 1.6
+  },
+  {
+    "id": "420a80f9-28c1-426f-b36c-a199d5af829b",
+    "title": "Stylized Wooden Paw Print Signpost",
+    "kind": "signpost",
+    "size": 1.6
+  },
+  {
+    "id": "d37038bd-cf04-4b0f-84ef-8d86b9774eb1",
+    "title": "Traditional Japanese Village Shop House",
+    "kind": "signpost",
+    "size": 1.6
+  },
+  {
+    "id": "452e6d5c-688e-422b-b0ad-43a3da8a5106",
+    "title": "Fantasy Medieval Market Stall with Barrels",
+    "kind": "stall",
     "size": 4
+  },
+  {
+    "id": "4017786f-1742-4d5a-a621-7bd9392c8040",
+    "title": "Stylized Fantasy Trading Post Camp Platform",
+    "kind": "stall",
+    "size": 4
+  },
+  {
+    "id": "8cf72e80-f8b0-4d0c-bc61-655f9be59b37",
+    "title": "Stylized Market Stall with Food Display",
+    "kind": "stall",
+    "size": 4
+  },
+  {
+    "id": "068ef750-51ea-4f01-ac32-188130862615",
+    "title": "Enchanted Blue Crystal Fantasy Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "75a97eac-42cd-48f7-ad78-b0bcbacd3bf2",
+    "title": "Palm Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "4c199686-1390-42b3-b01b-d6851088ddf0",
+    "title": "Realistic Broadleaf Deciduous Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "36f4bbaf-3e34-484a-9ade-917718d94ad8",
+    "title": "Realistic Broadleaf Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "13248713-fa91-4ac2-a52a-c153643e7158",
+    "title": "Realistic Deciduous Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "8a468a23-fbb9-4d0b-b59e-60e99b3077c5",
+    "title": "Realistic Deciduous Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "c6a4af16-298d-46bc-9fa2-f3d7cb60925d",
+    "title": "Realistic Deciduous Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "69cd08d3-e6af-424b-8b85-0b88bbed03f6",
+    "title": "Realistic Oak Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "458c62d3-cf94-49dc-a117-6fde58d6102e",
+    "title": "Realistic Pile of Acorns",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "c2c100e2-df7c-4da7-96e3-b4dbe33645d9",
+    "title": "Realistic Tropical Fan Palm Plant",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "7ff7ed6e-51cc-4f15-9cc9-729fa23e262d",
+    "title": "Rustic Wooden Storage Chest",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "e023a66b-fc6a-49cc-940f-03ed1688f4db",
+    "title": "Small Birch Tree with White Bark and Green Leaves",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "ca7fdca6-dbb7-4c5b-98d0-c54baea6b71b",
+    "title": "Snow-Covered Coniferous Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "ff3463cd-bcc2-44b0-9eaf-2cd7c80bba2c",
+    "title": "Stylized Broadleaf Oak Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "48f0a0f8-bd20-4b96-a96a-985c98ae475e",
+    "title": "Stylized Cacao Tree with Pods",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "eefdf212-9e5c-46a3-b140-4e83684a238a",
+    "title": "Stylized Cartoon Pine Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "0102e585-fab8-465b-87eb-c0580421440c",
+    "title": "Stylized Cartoon Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "75a13e2e-85e6-43a4-8ea8-24851d348b78",
+    "title": "Stylized Cartoon Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "82a7f523-220a-4dc9-92fb-591b8fbf32ea",
+    "title": "Stylized Cartoon Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "9a47dccf-5251-44c9-b609-e8d71d84feb2",
+    "title": "Stylized Cartoon Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "62bacda2-af89-4680-9145-89ca6a6a85bd",
+    "title": "Stylized Cartoon Tree with Exposed Roots",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "3caface4-5119-4ccb-8c33-49aaa8834922",
+    "title": "Stylized Cherry Blossom Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "64d6c66c-ef3c-4f36-874c-c05ceecd0544",
+    "title": "Stylized Coffee Plant with Ripe Cherries",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "39bc16d7-8816-458c-87d1-0fc4ad5766e1",
+    "title": "Stylized Coniferous Pine Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "30deadcf-fee2-4aeb-967b-c92258f52163",
+    "title": "Stylized Deciduous Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "72f7003f-d558-40fc-847f-3c8d9c4c1d60",
+    "title": "Stylized Deciduous Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "8587f027-5e90-4c70-9e52-86f526d951e4",
+    "title": "Stylized Deciduous Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "994d3b95-61ce-4ebb-a351-7878d8ca89d6",
+    "title": "Stylized Deciduous Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "9f2c56cb-d47f-4231-83e0-ed651102a6e5",
+    "title": "Stylized Deciduous Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "aec0c23e-4f6e-4ebe-84a9-4020be64ea3f",
+    "title": "Stylized Evergreen Pine Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "75a7cefd-25d9-4c31-a49a-40f3a8b81fc5",
+    "title": "Stylized Fantasy Magic Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "aac164ea-539f-4cfd-90d9-fedc76a5dc0e",
+    "title": "Stylized Fantasy Red Tree with Gnarled Trunk",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "2a5623f6-e865-4d56-877c-d1bf29961d2f",
+    "title": "Stylized Fantasy Tree with Gnarled Trunk",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "78c9f980-4fbe-463f-a921-12246f95b904",
+    "title": "Stylized Fantasy Treehouse Tree with Lanterns",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "de878d67-b83a-4b39-b39e-ce5585f7a164",
+    "title": "Stylized Golden Autumn Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "4930bf86-4d07-40e1-b574-1b8922109c3d",
+    "title": "Stylized Golden Foliage Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "bf1c6763-b147-4a73-8460-46a7ce413f02",
+    "title": "Stylized Low Poly Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "88279d72-68dd-4b9c-a5bb-661cb418d91a",
+    "title": "Stylized Low-Poly Fantasy Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "f0268d57-fbed-4b12-90cc-1832bcd5ba98",
+    "title": "Stylized Low-Poly Palm Frond Plant",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "ba8e5992-b869-4d08-8c2e-bdf2b94bf36b",
+    "title": "Stylized Low-Poly Pine Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "4aa1d1b5-028f-4714-8cfb-57dcfe8c0b10",
+    "title": "Stylized Low-Poly Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "855e87c6-bbb1-4e60-b0de-25f4f955cd35",
+    "title": "Stylized Low-Poly Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "2610aee1-73d7-4d81-81b8-d2e287f079d9",
+    "title": "Stylized Oak Tree with Painterly Foliage",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "4905dfe6-f2a1-48ea-aadc-16cdf71d7614",
+    "title": "Stylized Oak Tree with Painterly Green Foliage",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "e486ff9e-280e-430d-b03a-b7b5cc203907",
+    "title": "Stylized Painterly Deciduous Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "141ccf36-d856-4254-beb7-358a1366674b",
+    "title": "Stylized Pine Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "9e619799-0aca-4343-849c-59d23434364a",
+    "title": "Stylized Pine Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "cd2dce57-d8d5-4531-b976-ca0f754e1909",
+    "title": "Stylized Pine Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "1387ed06-4918-48dc-bd09-3e1b310c889b",
+    "title": "Stylized Pine Tree with Grass Base",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "b07a6398-c102-4078-be7a-0f19b66eec6a",
+    "title": "Stylized Purple Fantasy Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "1c0f6bd5-41ae-4e11-8f5d-0a8cad209f0a",
+    "title": "Stylized Small Pine Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "1bc9522a-fc8f-4f2a-ab16-c4707401a1d5",
+    "title": "Stylized Tropical Palm Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "0aaba024-d955-44dd-9bf4-9dd66e6fe3df",
+    "title": "Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "fc0b2084-36a7-45f0-93ff-cf7ab8c12c45",
+    "title": "Tree",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "3e059d3c-8661-4762-ac82-90fb5a6f3191",
+    "title": "Weathered Driftwood Branch – Natural Coastal Wood Prop",
+    "kind": "tree",
+    "size": 6
+  },
+  {
+    "id": "4dacd6bd-e206-4775-85c7-572371474f47",
+    "title": "Stylized Fantasy Stone Well with Wooden Roof and Bucket",
+    "kind": "well",
+    "size": 3
+  },
+  {
+    "id": "7279bf77-56dc-48d5-a4d6-8b9dff4cdc83",
+    "title": "Stylized Village Well with Wooden Roof and Buckets",
+    "kind": "well",
+    "size": 3
   }
 ]

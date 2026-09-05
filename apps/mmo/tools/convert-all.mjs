@@ -114,7 +114,7 @@ async function main() {
           if (!(await exists(glb))) await download(m.id, glb);
           await run('node', [COMPILER, glb, MESH_DIR, m.id, String(c.size)], { maxBuffer: 96 * 1024 * 1024 });
         }
-        catalog.push({ id: m.id, title: m.ai_title, kind: c.kind, size: c.size });
+        catalog.push({ id: m.id, title: (m.ai_title || m.name || '').trim(), kind: c.kind, size: c.size });
         ok++;
         if (ok % 20 === 0) console.log(`  … ${ok}/${relevant.length}`);
       } catch (e) {
@@ -124,6 +124,8 @@ async function main() {
   }
   await Promise.all(Array.from({ length: 6 }, worker));
 
+  // stable order — workers finish in race order, but the city layout keys off this file
+  catalog.sort((a, b) => a.kind.localeCompare(b.kind) || (a.title || '').localeCompare(b.title || '') || a.id.localeCompare(b.id));
   await writeFile(join(MESH_DIR, 'catalog.json'), JSON.stringify(catalog, null, 2));
   const byKind = catalog.reduce((a, c) => ((a[c.kind] = (a[c.kind] || 0) + 1), a), {});
   console.log(`\n✔ ${ok} models compiled → ${MESH_DIR}`);

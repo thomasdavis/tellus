@@ -26,7 +26,7 @@ export interface FrameRes {
 
 export class RenderPool extends WorkerPool<FrameReq, FrameRes> {
   constructor(size: number) {
-    super(new URL('./worker.ts', import.meta.url), size, { execArgv: process.execArgv });
+    super(new URL('./worker.ts', import.meta.url), size, { execArgv: process.execArgv, timeoutMs: 2000 });
   }
 
   /** Render one frame on some worker. Rejects on timeout/worker death — caller renders inline. */

@@ -23,6 +23,7 @@ interface Pending<TRes> {
 
 export class WorkerPool<TReq extends object, TRes> {
   private workers: Worker[] = [];
+  private readonly ready = new Set<Worker>(); // said hello — safe to dispatch to
   private next = 0;
   private seq = 1;
   private readonly pending = new Map<number, Pending<TRes>>();
@@ -43,10 +44,18 @@ export class WorkerPool<TReq extends object, TRes> {
     return this.workers.length;
   }
 
+  /** Workers that finished initializing and can take requests right now. */
+  get readySize(): number {
+    return this.ready.size;
+  }
+
   private spawn(): void {
     const w = new Worker(this.workerUrl, { execArgv: this.execArgv });
     w.on('message', (m: (TRes & { reqId: number }) | object) => {
-      if (!('reqId' in m)) return;
+      if (!('reqId' in m)) {
+        this.ready.add(w); // the hello — init (world build, mesh loading) is done
+        return;
+      }
       const p = this.pending.get(m.reqId as number);
       if (!p) return;
       clearTimeout(p.timer);
@@ -62,6 +71,7 @@ export class WorkerPool<TReq extends object, TRes> {
     const i = this.workers.indexOf(dead);
     if (i === -1) return; // already replaced
     this.workers.splice(i, 1);
+    this.ready.delete(dead);
     try {
       dead.terminate();
     } catch {
@@ -70,10 +80,12 @@ export class WorkerPool<TReq extends object, TRes> {
     this.spawn();
   }
 
-  /** Run one request on some worker. Rejects on timeout or worker death. */
+  /** Run one request on some READY worker. Rejects immediately when none are ready
+   *  (e.g. during startup) and on timeout/worker death — callers fall back inline. */
   run(req: TReq): Promise<TRes> {
-    if (!this.workers.length) return Promise.reject(new Error('no workers'));
-    const worker = this.workers[this.next++ % this.workers.length]!;
+    const pool = this.workers.filter((w) => this.ready.has(w));
+    if (!pool.length) return Promise.reject(new Error('no ready workers'));
+    const worker = pool[this.next++ % pool.length]!;
     const reqId = this.seq++;
     return new Promise<TRes>((resolve, reject) => {
       const timer = setTimeout(() => {

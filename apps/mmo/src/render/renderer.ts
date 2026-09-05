@@ -52,11 +52,11 @@ export const FOV = 1.1;
 export const COLOR_QUANT = 12;
 const FOG_FAR = 165;
 
-// Full-detail models (LOD0) across the whole playable area; drop to LOD1 only for
-// the far background and LOD2 at the fog edge. Rendering runs on worker threads,
-// so the heavier geometry costs no main-thread responsiveness. Tunable via env.
-const LOD0_D = Number(process.env.LOD0 ?? 64);
-const LOD1_D = Number(process.env.LOD1 ?? 140);
+// LOD0 is now the ORIGINAL source geometry (~27k tris) — spend it only up close,
+// where the eye lives; the clustered LODs take over where terminal cells can no
+// longer resolve the difference. Tunable via env.
+const LOD0_D = Number(process.env.LOD0 ?? 24);
+const LOD1_D = Number(process.env.LOD1 ?? 70);
 
 export interface NameTag {
   id: number;
