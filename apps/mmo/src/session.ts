@@ -16,6 +16,15 @@ const ACCEL = 9; // how quickly you reach full speed / glide to a stop
 const TURN_RATE = 2.1; // rad/s camera orbit while an arrow is held
 const FACE_RATE = 10; // how quickly the avatar turns to face travel
 const FRESH_MS = 150; // a key counts as "held" this long after its last repeat
+// --- Ocarina-style movement ---
+const CAM_FOLLOW = 1.8; // camera drifts behind your direction of travel (rad-lerp/s)
+const CAM_LOCK = 4.5; // and swings much harder onto a Z-targeted foe
+const LOCK_RANGE = 26; // how far Tab can acquire a target
+const LOCK_DROP = 36; // lock releases beyond this
+const LOCK_CONE = 1.25; // acquire only roughly in front of the camera (radians)
+const ROLL_MS = 340; // a roll is a short burst...
+const ROLL_SPEED = 13.5; // ...at just over twice run speed
+const ROLL_COOLDOWN = 520; // classic roll-spam cadence
 const MIN_COLS = 48;
 const MIN_ROWS = 16;
 // Use the terminal's real size so the world fills the screen — a bigger grid also
@@ -46,6 +55,10 @@ export class MmoSession {
   private speed = 0;
   private dirX = 0;
   private dirZ = 1;
+
+  // Ocarina kit: Z-target lock + roll
+  private lockId: number | null = null;
+  private rollUntil = 0;
 
   // key freshness (terminal auto-repeat keeps these fresh while held)
   private press = { w: 0, a: 0, s: 0, d: 0, left: 0, right: 0 };
@@ -101,17 +114,36 @@ export class MmoSession {
 
   private stepOnce(now: number, dt: number): void {
     const held = (t: number): boolean => now - t < FRESH_MS;
+    const p = this.player;
+    const rolling = now < this.rollUntil;
 
-    // --- smooth camera orbit (left turns left) ---
+    // --- Z-target: resolve (and maybe drop) the locked agent ---
+    const target = this.lockId === null ? null : this.world.agents().find((a) => a.id === this.lockId) ?? null;
+    if (this.lockId !== null && (!target || Math.hypot(target.x - p.x, target.z - p.z) > LOCK_DROP)) this.lockId = null;
+
+    // --- the camera: manual orbit always wins; otherwise it steers itself ---
     const turn = (held(this.press.right) ? 1 : 0) - (held(this.press.left) ? 1 : 0);
-    this.cam.turn(turn * TURN_RATE * dt);
+    if (turn !== 0) {
+      this.cam.turn(turn * TURN_RATE * dt);
+    } else if (target) {
+      // locked: swing hard onto the target, Ocarina style
+      this.cam.yaw = lerpAngle(this.cam.yaw, Math.atan2(target.x - p.x, target.z - p.z), Math.min(1, dt * CAM_LOCK));
+    } else if (this.speed > 1.2) {
+      // free run: drift around behind the direction of travel — but never flip
+      // when running toward the camera (backing away keeps the framing)
+      const travel = Math.atan2(this.dirX, this.dirZ);
+      let diff = (travel - this.cam.yaw) % (Math.PI * 2);
+      if (diff > Math.PI) diff -= Math.PI * 2;
+      if (diff < -Math.PI) diff += Math.PI * 2;
+      if (Math.abs(diff) < 2.1) this.cam.yaw = lerpAngle(this.cam.yaw, travel, Math.min(1, dt * CAM_FOLLOW));
+    }
     this.cam.easePitch(dt);
 
-    // --- camera-relative move intent ---
+    // --- camera-relative move intent (a roll keeps its committed direction) ---
     const f = (held(this.press.w) ? 1 : 0) - (held(this.press.s) ? 1 : 0);
     const r = (held(this.press.d) ? 1 : 0) - (held(this.press.a) ? 1 : 0);
     const moving = f !== 0 || r !== 0;
-    if (moving) {
+    if (moving && !rolling) {
       const sin = Math.sin(this.cam.yaw);
       const cos = Math.cos(this.cam.yaw);
       const dx = sin * f + cos * r;
@@ -121,21 +153,45 @@ export class MmoSession {
       this.dirZ = dz / l;
     }
 
-    // ease speed in and out so starts and stops glide
-    this.speed += ((moving ? RUN_SPEED : 0) - this.speed) * Math.min(1, dt * ACCEL);
+    // ease speed in and out so starts and stops glide; a roll is a hard burst
+    const want = rolling ? ROLL_SPEED : moving ? RUN_SPEED : 0;
+    this.speed += (want - this.speed) * Math.min(1, dt * (rolling ? 26 : ACCEL));
 
-    const p = this.player;
     if (this.speed > 0.03) {
       this.world.step(p, this.dirX * this.speed * dt, this.dirZ * this.speed * dt);
-      // turn the body smoothly toward the way we're travelling
-      p.yaw = lerpAngle(p.yaw, Math.atan2(this.dirX, this.dirZ), Math.min(1, dt * FACE_RATE));
       p.moving = true;
     } else {
       p.moving = false;
     }
+    // face the locked target (strafe feel) — otherwise face the way you travel
+    if (target) p.yaw = lerpAngle(p.yaw, Math.atan2(target.x - p.x, target.z - p.z), Math.min(1, dt * FACE_RATE));
+    else if (this.speed > 0.03) p.yaw = lerpAngle(p.yaw, Math.atan2(this.dirX, this.dirZ), Math.min(1, dt * FACE_RATE));
 
     this.tick++;
     if (this.tick % RENDER_EVERY === 0) this.renderFrame();
+  }
+
+  /** Tab: lock the nearest agent roughly in front of the camera; Tab again releases. */
+  private toggleLock(): void {
+    if (this.lockId !== null) {
+      this.lockId = null;
+      return;
+    }
+    const p = this.player;
+    let best: { id: number; d: number } | null = null;
+    for (const a of this.world.agents()) {
+      if (a.id === p.id) continue;
+      const dx = a.x - p.x;
+      const dz = a.z - p.z;
+      const d = Math.hypot(dx, dz);
+      if (d > LOCK_RANGE) continue;
+      let rel = (Math.atan2(dx, dz) - this.cam.yaw) % (Math.PI * 2);
+      if (rel > Math.PI) rel -= Math.PI * 2;
+      if (rel < -Math.PI) rel += Math.PI * 2;
+      if (Math.abs(rel) > LOCK_CONE) continue;
+      if (!best || d < best.d) best = { id: a.id, d };
+    }
+    if (best) this.lockId = best.id;
   }
 
   private renderFrame(): void {
@@ -214,8 +270,11 @@ export class MmoSession {
     s.text(0, 0, l1.padEnd(Math.min(W, l1.length + 1)), 0x9ff0c0, dim);
     const l2 = ` ${this.world.districtAt(p.x, p.z)}  ·  x ${p.x.toFixed(0)} z ${p.z.toFixed(0)} `;
     s.text(Math.max(0, W - l2.length), 0, l2, 0xffd76a, dim);
-    const hint = ' WASD run · ←/→ turn · ↑/↓ look · V view · ? help · Ctrl-C leave ';
-    s.text(0, rows - 1, hint.slice(0, W).padEnd(Math.min(W, hint.length)), 0xbfeaff, dim);
+    const lock = this.lockId !== null ? this.world.agents().find((a) => a.id === this.lockId) : null;
+    const hint = lock
+      ? ` ◎ LOCKED — ${lock.isPlayer ? lock.name : 'target'} ${Math.round(Math.hypot(lock.x - p.x, lock.z - p.z))}m · Tab release · Space roll `
+      : ' WASD run · Space roll · Tab lock-on · ←/→ cam · V view · ? help ';
+    s.text(0, rows - 1, hint.slice(0, W).padEnd(Math.min(W, hint.length)), lock ? 0xffd76a : 0xbfeaff, dim);
     if (this.showHelp) this.drawHelp();
   }
 
@@ -259,8 +318,10 @@ export class MmoSession {
       '  You are a citizen of a storybook city. ',
       '  Others you meet are real players, live. ',
       '  ',
-      '  W A S D    run (relative to the camera) ',
-      '  ← / →      turn the camera, smoothly ',
+      '  W A S D    run — the camera follows you ',
+      '  Space      roll (a quick burst, on cooldown) ',
+      '  Tab        Z-target: lock on, circle, release ',
+      '  ← / →      steer the camera yourself ',
       '  ↑ / ↓      look up / down ',
       '  V          render mode: octant / half ',
       '  ?          close this help ',
@@ -295,6 +356,14 @@ export class MmoSession {
         else if (code === 'B') this.cam.pitchTarget = Math.max(-0.05, this.cam.pitchTarget - 0.09);
         else if (code === 'D') this.press.left = now; // left arrow → turn left
         else if (code === 'C') this.press.right = now; // right arrow → turn right
+        continue;
+      }
+      if (ch === '\t') {
+        this.toggleLock(); // Z-target
+        continue;
+      }
+      if (ch === ' ') {
+        if (now > this.rollUntil + ROLL_COOLDOWN) this.rollUntil = now + ROLL_MS; // roll
         continue;
       }
       const lc = ch.toLowerCase();

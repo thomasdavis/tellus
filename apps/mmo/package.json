@@ -8,7 +8,7 @@
     "start": "tsx src/server/index.ts",
     "typecheck": "tsc --noEmit",
     "clean": "rm -rf .turbo *.tsbuildinfo",
-    "test": "tsx tools/test-worker.mjs",
+    "test": "tsx tools/test-worker.mjs && tsx tools/test-movement.mjs",
     "bench": "tsx tools/bench-full.mjs",
     "snapshot": "tsx tools/snapshot.mjs"
   },

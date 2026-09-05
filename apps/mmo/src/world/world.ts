@@ -342,7 +342,11 @@ export class World {
     const nx = Math.min(b, Math.max(-b, a.x + dx));
     const nz = Math.min(b, Math.max(-b, a.z + dz));
     for (const bld of this.buildings) {
-      if (Math.hypot(nx - bld.x, nz - bld.z) < bld.r) return;
+      const after = Math.hypot(nx - bld.x, nz - bld.z);
+      if (after >= bld.r) continue;
+      // block entry, but always allow moving OUT of an overlap — nobody gets stuck
+      const before = Math.hypot(a.x - bld.x, a.z - bld.z);
+      if (after <= before) return;
     }
     a.x = nx;
     a.z = nz;
