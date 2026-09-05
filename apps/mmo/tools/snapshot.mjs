@@ -25,8 +25,8 @@ const target = new RasterTarget(W, H);
 
 const gy = world.groundAt(0, 0);
 const mode = process.argv[3] || 'aerial';
-const eye = mode === 'pov' ? [-6.5, gy + 4.2, -11] : [-32, gy + 22, -32];
-const look = mode === 'pov' ? [3, gy + 1.1, 12] : [4, gy + 2, 5];
+const eye = mode === 'pov' ? [-6.5, gy + 4.2, -11] : mode === 'street' ? [1.8, world.groundAt(1.8, -30) + 2.4, -30] : [-32, gy + 22, -32];
+const look = mode === 'pov' ? [3, gy + 1.1, 12] : mode === 'street' ? [0, gy + 1.8, 20] : [4, gy + 2, 5];
 renderer.render(target, world, you.id, eye, look, 120, 40);
 
 await sharp(Buffer.from(target.rgb), { raw: { width: W, height: H, channels: 3 } })

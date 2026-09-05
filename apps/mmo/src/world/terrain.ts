@@ -1,7 +1,71 @@
 import type { Mesh } from './mesh.js';
 
-/** Half-extent of the (square) world in metres — room for a village in the woods. */
-export const WORLD_HALF = 76;
+/** Half-extent of the (square) world in metres — room for a city and its outskirts. */
+export const WORLD_HALF = 120;
+
+// ---- the street network -------------------------------------------------------
+// The city is drawn around a central plaza with four avenues out to a ring road.
+// Roads are data: everything else — terrain flattening, cobble colouring, grass
+// suppression, NPC routing, building frontages — derives from these segments.
+
+export interface RoadSeg {
+  x1: number;
+  z1: number;
+  x2: number;
+  z2: number;
+  w: number; // half-width (m)
+}
+
+export const PLAZA_R = 14; // the central plaza (flat, paved)
+const AVE = 58; // avenues run from the plaza to the ring road
+const RING = 58; // ring-road radius
+
+function ringSegs(r: number, n: number, w: number): RoadSeg[] {
+  const out: RoadSeg[] = [];
+  for (let i = 0; i < n; i++) {
+    const a0 = (i / n) * Math.PI * 2;
+    const a1 = ((i + 1) / n) * Math.PI * 2;
+    out.push({ x1: Math.cos(a0) * r, z1: Math.sin(a0) * r, x2: Math.cos(a1) * r, z2: Math.sin(a1) * r, w });
+  }
+  return out;
+}
+
+export const ROADS: RoadSeg[] = [
+  { x1: 0, z1: PLAZA_R - 2, x2: 0, z2: AVE, w: 3.2 }, // north avenue → Old Town
+  { x1: 0, z1: -(PLAZA_R - 2), x2: 0, z2: -AVE, w: 3.2 }, // south avenue → Market Street
+  { x1: PLAZA_R - 2, z1: 0, x2: AVE, z2: 0, w: 3.2 }, // east avenue → Shrine Quarter
+  { x1: -(PLAZA_R - 2), z1: 0, x2: -AVE, z2: 0, w: 3.2 }, // west avenue → Garden District
+  ...ringSegs(RING, 20, 2.4), // the ring road
+];
+
+/** Distance from (x,z) to the nearest road centreline, minus that road's half-width
+ *  (≤ 0 means "on the road"). The plaza counts as road. */
+export function roadDist(x: number, z: number): number {
+  let best = PLAZA_R > 0 ? Math.hypot(x, z) - PLAZA_R : Infinity; // plaza disc
+  for (const s of ROADS) {
+    const dx = s.x2 - s.x1;
+    const dz = s.z2 - s.z1;
+    const len2 = dx * dx + dz * dz;
+    let t = len2 > 0 ? ((x - s.x1) * dx + (z - s.z1) * dz) / len2 : 0;
+    t = t < 0 ? 0 : t > 1 ? 1 : t;
+    const px = s.x1 + dx * t;
+    const pz = s.z1 + dz * t;
+    const d = Math.hypot(x - px, z - pz) - s.w;
+    if (d < best) best = d;
+  }
+  return best;
+}
+
+/** A deterministic point on the road network (for NPC wandering / cart routes). */
+export function roadPoint(rnd: () => number): { x: number; z: number } {
+  const s = ROADS[Math.floor(rnd() * ROADS.length)]!;
+  const t = rnd();
+  const jitter = (rnd() * 2 - 1) * s.w * 0.6;
+  const dx = s.x2 - s.x1;
+  const dz = s.z2 - s.z1;
+  const l = Math.hypot(dx, dz) || 1;
+  return { x: s.x1 + dx * t - (dz / l) * jitter, z: s.z1 + dz * t + (dx / l) * jitter };
+}
 
 // ---- value noise (cheap, deterministic) ----
 function hash(x: number, z: number): number {
@@ -25,12 +89,15 @@ function fbm(x: number, z: number): number {
   return 0.5 * noise2(x, z) + 0.25 * noise2(x * 2 + 5.3, z * 2 - 1.7) + 0.125 * noise2(x * 4 - 9.1, z * 4 + 4.4);
 }
 
-/** Rolling terrain with fine bumps; flattened toward spawn so it stays walkable. */
+/** Rolling terrain with fine bumps, pressed flat where the city's streets run. */
 export function heightAt(x: number, z: number): number {
   const big = fbm(x * 0.03, z * 0.03) - 0.5; // broad hills, -0.5..0.5
   const fine = (fbm(x * 0.16, z * 0.16) - 0.5) * 0.35; // surface roughness
-  const flat = Math.min(1, Math.hypot(x, z) / 16); // calm meadow at the centre
-  return Math.max(0, (big * 7.5 + fine * 2 + 1.1) * flat);
+  const raw = Math.max(0, big * 7.5 + fine * 2 + 1.1);
+  // streets and the plaza sit near grade; countryside rolls freely a few metres out
+  const rd = roadDist(x, z);
+  const f = rd < 0 ? 0.04 : Math.min(1, rd / 9);
+  return raw * (0.04 + 0.96 * f * f);
 }
 
 const lerp = (a: number, b: number, t: number): number => a + (b - a) * t;
@@ -65,6 +132,18 @@ function terrainColor(x: number, z: number, y: number, slope: number, out: Uint8
     r = lerp(r, 126, t);
     gg = lerp(gg, 118, t);
     b = lerp(b, 104, t);
+  }
+  // the streets: warm cobblestone with per-stone tone flicker, blended at the verge
+  const rd = roadDist(x, z);
+  if (rd < 1.2) {
+    const cobble = 0.82 + 0.18 * hash(Math.floor(x * 1.6), Math.floor(z * 1.6));
+    const cr = 148 * cobble;
+    const cg = 138 * cobble;
+    const cb = 122 * cobble;
+    const t = rd < 0 ? 1 : 1 - rd / 1.2; // solid on the road, feathered on the verge
+    r = lerp(r, cr, t);
+    gg = lerp(gg, cg, t);
+    b = lerp(b, cb, t);
   }
   const hn = Math.min(1, y / 6) * 0.14;
   out[k] = Math.min(255, r * (1 + hn));

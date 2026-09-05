@@ -212,8 +212,8 @@ export class MmoSession {
     const online = this.world.population;
     const l1 = ` TELLUS  ·  ${p.name}  ·  ${online} player${online === 1 ? '' : 's'} online `;
     s.text(0, 0, l1.padEnd(Math.min(W, l1.length + 1)), 0x9ff0c0, dim);
-    const l2 = ` x ${p.x.toFixed(0)}  z ${p.z.toFixed(0)}  ${this.world.groundAt(p.x, p.z).toFixed(1)}m `;
-    s.text(Math.max(0, W - l2.length), 0, l2, 0xbfeaff, dim);
+    const l2 = ` ${this.world.districtAt(p.x, p.z)}  ·  x ${p.x.toFixed(0)} z ${p.z.toFixed(0)} `;
+    s.text(Math.max(0, W - l2.length), 0, l2, 0xffd76a, dim);
     const hint = ' WASD run · ←/→ turn · ↑/↓ look · V view · ? help · Ctrl-C leave ';
     s.text(0, rows - 1, hint.slice(0, W).padEnd(Math.min(W, hint.length)), 0xbfeaff, dim);
     if (this.showHelp) this.drawHelp();
@@ -256,7 +256,7 @@ export class MmoSession {
     const lines = [
       '  TELLUS — a small shared world ',
       '  ───────────────────────────────── ',
-      '  You are a wanderer in a quiet meadow. ',
+      '  You are a citizen of a storybook city. ',
       '  Others you meet are real players, live. ',
       '  ',
       '  W A S D    run (relative to the camera) ',

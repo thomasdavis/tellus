@@ -948,7 +948,7 @@ async function main() {
       rgb = packed;
     }
     let outW = tw, outH = th, outRgb = rgb;
-    const MAXT = 320;
+    const MAXT = Number(process.env.TEX_MAX ?? 320); // texture cap; raise for hero/architecture assets
     if (Math.max(tw, th) > MAXT) {
       const sc = MAXT / Math.max(tw, th);
       outW = Math.max(1, Math.round(tw * sc));

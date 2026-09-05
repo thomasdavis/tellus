@@ -1,7 +1,9 @@
 # Tellus MMO
 
-A shared 3D world over SSH. Every connection is a player in the **same** meadow —
-run around, meet the others, watch the day turn.
+A shared 3D world over SSH. Every connection is a player in the **same** storybook
+city — a plaza, four districts, streets full of walking NPCs and cart traffic,
+lanterns that light up at dusk. Built from ~400 models harvested from the Flobots
+library.
 
 ```bash
 ssh -p 4020 <host>        # your username becomes your character name

@@ -1,6 +1,6 @@
 import { type Mat4, type Vec3, RasterTarget, renderMesh, cross, normalize, type LightEnv } from '@tellus/engine';
 import { sway, windState } from './wind.js';
-import { WORLD_HALF } from '../world/terrain.js';
+import { WORLD_HALF, roadDist } from '../world/terrain.js';
 import type { World } from '../world/world.js';
 
 const CULL = 16;
@@ -40,6 +40,7 @@ export class Grass {
     for (let i = 0; i < count; i++) {
       const x = (rnd() * 2 - 1) * WORLD_HALF;
       const z = (rnd() * 2 - 1) * WORLD_HALF;
+      if (roadDist(x, z) < 0.7) continue; // nothing grows through cobblestones
       if (world.buildings.some((b) => Math.hypot(x - b.x, z - b.z) < b.r + 1)) continue;
       const idx = xs.length;
       xs.push(x);

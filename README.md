@@ -7,8 +7,8 @@ into an RGB framebuffer; a terminal presenter packs it into Unicode sub-pixel ce
 and streams minimal ANSI deltas — so anyone with an ssh client can walk around a
 shared world, no GPU, no browser, no install.
 
-![A meadow at midday — knight, horses, pines and grass, rendered to a terminal framebuffer](docs/media/meadow-day.png)
-![The same world at golden hour: keyframed day-night light, long soft shadows](docs/media/golden-hour.png)
+![Market Street at midday — cobbled avenue, cottages, lantern posts, walking NPCs](docs/media/city-day.png)
+![The same street after dark: lantern glow pools along the avenue under the stars](docs/media/city-night.png)
 
 *Both frames are real renders from the MMO's framebuffer — what a terminal shows,
 before the octant cell fitting.*
@@ -16,7 +16,7 @@ before the octant cell fitting.*
 ## Try it
 
 ```bash
-ssh -p 4020 <host>     # Tellus MMO — a shared meadow: run around, meet other players
+ssh -p 4020 <host>     # Tellus MMO — a shared storybook city: districts, crowds, day & night
 ssh -p 4010 <host>     # SSH sailing — single-handed dinghy sailing
 ```
 

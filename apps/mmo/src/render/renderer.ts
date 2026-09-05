@@ -23,7 +23,7 @@ import { loadModel, type Mesh, type Model } from '../world/mesh.js';
 import type { World } from '../world/world.js';
 import { Grass } from '../nature/grass.js';
 import { sway, windState } from '../nature/wind.js';
-import { dayState } from '../nature/daynight.js';
+import { dayState, type DayState } from '../nature/daynight.js';
 import { Particles } from '../nature/particles.js';
 import { makeStars, paintSky } from './sky.js';
 import { castShadows } from './shadows.js';
@@ -75,6 +75,7 @@ interface Inst {
   cz: number;
   radius: number;
   baseY: number;
+  floating: boolean; // has an explicit altitude (balloons) — keep full LOD, no shadow
   treeH: number; // >0 = sways in the wind (foliage)
 }
 
@@ -117,7 +118,7 @@ export class WorldRenderer {
     const ids = new Set<string>();
     for (const p of world.props) ids.add(p.id);
     for (const a of world.agents()) ids.add(a.mesh);
-    ids.add(world.heroMesh);
+    for (const id of world.heroPool) ids.add(id); // any player can wear any hero
 
     let maxVerts = 3;
     for (const id of ids) {
@@ -143,7 +144,7 @@ export class WorldRenderer {
       const mat = mul(mul(translation(p.x, yy, p.z), rotationY(p.yaw)), scaling(p.scale, p.scale, p.scale));
       const r = (radii.get(p.id) ?? 1) * p.scale;
       const treeH = this.treeIds.has(p.id) ? r * 1.5 : 0;
-      this.instances.push({ id: p.id, mat, yaw: p.yaw, cx: p.x, cy: yy + r * 0.5, cz: p.z, radius: r + 1, baseY: yy, treeH });
+      this.instances.push({ id: p.id, mat, yaw: p.yaw, cx: p.x, cy: yy + r * 0.5, cz: p.z, radius: r + 1, baseY: yy, floating: p.y !== undefined, treeH });
     }
 
     this.grass = new Grass(world);
@@ -180,7 +181,8 @@ export class WorldRenderer {
       const dist = Math.hypot(dx, dy, dz);
       if (dist > FOG_FAR + inst.radius) continue;
       const m = this.models.get(inst.id)!;
-      const lod = selectLod(m.lods, dist, LOD0_D, LOD1_D);
+      // floating props (balloons) are skyline silhouettes — keep them full-detail
+      const lod = inst.floating ? m.lods[0]! : selectLod(m.lods, dist, LOD0_D, LOD1_D);
       if (inst.treeH > 0 && dist < 58) {
         const s = sway(inst.cx, inst.cz, wstate, t, 1, 2.2);
         this.drawSway(target, vp, eye, lod, inst.mat, inst.yaw, m.texture, { sx: s.x, sz: s.z, baseY: inst.baseY, height: inst.treeH });
@@ -207,7 +209,48 @@ export class WorldRenderer {
     }
 
     this.particles.render(target, vp, eye, day, t, world);
+    this.lampGlow(target, vp, fr, eye, day, world);
     return tags;
+  }
+
+  // Street lanterns after dusk: a warm additive glow splatted around each lamp
+  // post — depth-aware enough (screen-radius scaled by distance) to read as pools
+  // of light along the avenues. This is what makes the city feel alive at night.
+  private lampGlow(target: RasterTarget, vp: Mat4, fr: Frustum, eye: Vec3, day: DayState, world: World): void {
+    const on = Math.min(1, Math.max(0, (day.night - 0.08) / 0.3)); // fade in through dusk
+    if (on <= 0.02) return;
+    const { width: W, height: H, rgb } = target;
+    for (const l of world.lampPosts) {
+      const gy = world.groundAt(l.x, l.z) + 1.15; // the flame sits atop the post
+      if (fr.culls(l.x, gy, l.z, 2)) continue;
+      const dx = l.x - eye[0];
+      const dz = l.z - eye[2];
+      const dist = Math.hypot(dx, dz);
+      if (dist > 90) continue;
+      const cw = vp[3] * l.x + vp[7] * gy + vp[11] * l.z + vp[15];
+      if (cw <= 0.05) continue;
+      const sx = (vp[0] * l.x + vp[4] * gy + vp[8] * l.z + vp[12]) / cw;
+      const sy = (vp[1] * l.x + vp[5] * gy + vp[9] * l.z + vp[13]) / cw;
+      const px = (sx * 0.5 + 0.5) * W;
+      const py = (1 - (sy * 0.5 + 0.5)) * H;
+      const r = Math.max(2, (W * 0.55) / Math.max(3, dist)); // shrinks with distance
+      const x0 = Math.max(0, (px - r) | 0), x1 = Math.min(W, (px + r + 1) | 0);
+      const y0 = Math.max(0, (py - r * 0.8) | 0), y1 = Math.min(H, (py + r * 1.3) | 0);
+      const ir = 1 / r;
+      for (let y = y0; y < y1; y++) {
+        for (let x = x0; x < x1; x++) {
+          const ndx = (x - px) * ir;
+          const ndy = (y - py) * ir;
+          const d2 = ndx * ndx + ndy * ndy;
+          if (d2 >= 1) continue;
+          const g = (1 - d2) * (1 - d2) * on;
+          const o = (y * W + x) * 3;
+          rgb[o] = Math.min(255, rgb[o]! + 190 * g);
+          rgb[o + 1] = Math.min(255, rgb[o + 1]! + 140 * g);
+          rgb[o + 2] = Math.min(255, rgb[o + 2]! + 58 * g);
+        }
+      }
+    }
   }
 
   // Fast path (no sway): fold the model matrix into the view-projection so each
